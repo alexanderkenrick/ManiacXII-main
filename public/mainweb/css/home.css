@@ -1,6 +1,6 @@
 .prize-container {
     border-radius: 50px;
-    background-color: #E5C173;
+    background-color: #fac7d0;
 }
 
 .dot {
@@ -16,18 +16,25 @@
 }
 
 .prize1{
-    border-radius: 30px;
-    background-color: #A0583A;
+    border-radius: 40px;
+    background-color: #fef2f4;
+    text-align: center;
+    margin-left: 3px;
+}
+
+.note1{
+    border-radius: 20px;
+    background-color: #d14d72;
     text-align: center;
     margin-left: 3px;
 }
 
 .neon{
   text-align: center;
-  color: #ffffff;
-  text-shadow: 0 0 28px yellow,
+  color: #19376d;
+  /* text-shadow: 0 0 28px yellow,
     0 0 50px rgba(255, 120, 0, 0.5);
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 1px white; */
 }
 
 .video {

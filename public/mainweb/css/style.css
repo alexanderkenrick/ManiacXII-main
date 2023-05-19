@@ -1,10 +1,10 @@
+
+
 @font-face {
-    font-family: 'a_asian_hiroregular';
-    src: url('../fonts/aasianhiro/aasianhiro-webfont.woff2') format('woff2'),
-         url('../fonts/aasianhiro/aasianhiro-webfont.woff') format('woff');
+    font-family: 'alice_in_wonderland';
+    src: url('../fonts/alice/Alice_in_Wonderland_3.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     background-color: #eceeca;
     min-height: 1vh;
     padding-top: 70px;
-    color: #a0583a;
+    color: #4f200d;
 }
 
 #footer {
@@ -42,7 +42,7 @@ body {
 }
 
 .myTitle {
-    font-family: "a_asian_hiroregular", Arial, Helvetica, sans-serif;
+    font-family: 'alice_in_wonderland' , Arial, sans-serif;
     font-size: 3.5em !important;
     letter-spacing: 3px;
     line-height: 60px;
