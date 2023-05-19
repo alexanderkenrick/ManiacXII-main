@@ -1,8 +1,6 @@
-
-
 @font-face {
-    font-family: 'alice_in_wonderland';
-    src: url('../fonts/alice/Alice_in_Wonderland_3.ttf') format('truetype');
+    font-family: "alice_in_wonderland";
+    src: url("../fonts/alice/Alice_in_Wonderland_3.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -42,11 +40,11 @@ body {
 }
 
 .myTitle {
-    font-family: 'alice_in_wonderland' , Arial, sans-serif;
+    font-family: "alice_in_wonderland", Arial, sans-serif;
     font-size: 3.5em !important;
     letter-spacing: 3px;
     line-height: 60px;
-    color: #a0583a;
+    color: #ff8400;
     text-align: center;
 }
 
@@ -110,12 +108,12 @@ body {
 
 .myBtn.dark {
     background-color: #eceeca;
-    color: #A0583A;
+    color: #a0583a;
 }
 
 .myBtn.dark:hover {
     background-color: #d0d2ad;
-    color:#A0583A;
+    color: #a0583a;
 }
 
 .myChkbox {
@@ -201,7 +199,7 @@ body {
     padding: 6px 10px;
 }
 
-.text404 h1{
+.text404 h1 {
     font-size: 5em;
 }
 
