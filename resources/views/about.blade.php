@@ -93,7 +93,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="d-flex justify-content-center my-5 fs-1 myTitle text-center" style="color: #A0583A">JOIN US NOW
+            <div class="d-flex justify-content-center my-5 fs-1 myTitle text-center">JOIN US NOW
             </div>
             <div class="d-flex justify-content-center">
                 <div class="video">
