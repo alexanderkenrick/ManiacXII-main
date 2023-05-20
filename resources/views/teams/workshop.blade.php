@@ -21,7 +21,7 @@
                 <img src="{{ asset('../mainweb/img/poster/poster-workshop.jpg') }}" alt="Poster Workshop" style="width: 80%;">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 mb-3 workshop-regis">
-                <div class="card mx-auto workshop-card" style="">
+                <div class="card mx-auto workshop-card">
                     <h4>Register Workshop</h4>
                     @foreach ($workshop as $w)
                         <p>{{ $w->name }}</p>

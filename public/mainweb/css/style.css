@@ -44,7 +44,7 @@ body {
     font-size: 3.5em !important;
     letter-spacing: 3px;
     line-height: 60px;
-    color: #fbae17;
+    color: #f9ad16;
     text-align: center;
 }
 
@@ -72,9 +72,9 @@ body {
 .myTextbox {
     display: block;
     margin-bottom: 10px;
-    background-color: transparent;
-    border: 2px solid #a0583a;
-    color: #a0583a;
+    background-color: rgba(246, 241, 233, 0.8);
+    /* border: 2px solid #a0583a; */
+    color: #4f200d;
     height: 40px;
     border-radius: 10px;
     padding: 0 10px;
@@ -92,8 +92,8 @@ body {
 
 .myBtn {
     display: block;
-    background-color: #a0583a;
-    color: #eceeca;
+    background-color: rgba(255, 217, 61, 0.8);
+    color: #4f200d;
     border-radius: 15px;
     border: none;
     height: 40px;
@@ -133,7 +133,7 @@ body {
     height: 20px;
     top: 2px;
     left: 8px;
-    border: 2px solid #a0583a;
+    border: 2px solid rgba(255, 217, 61, 0.8);
     border-radius: 2px;
 }
 
@@ -168,18 +168,18 @@ body {
 
 .chkText {
     display: inline-block;
-    color: #a0583a;
+    color: rgba(255, 217, 61, 0.8);
     margin-bottom: 10px;
     background-color: transparent;
 }
 
 .have-account {
-    color: #a0583a;
+    color: rgba(255, 217, 61, 0.8);
     font-weight: 600;
 }
 
 .have-account a {
-    color: #a0583a;
+    color: rgba(255, 217, 61, 0.8);
 }
 
 .have-account a:hover {

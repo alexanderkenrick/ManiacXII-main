@@ -20,7 +20,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                      </div>
                      @endif
-                    <img src="{{ asset('../mainweb/img/logo/logo-maniac-xi.png') }}" width="90%" alt="Logo MANIAC XI">
+                    <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 1.png') }}" width="100%" alt="Logo MANIAC XII">
                     
                     <form method="POST" action="{{ url('/login') }}" class="mt-5">
                         @csrf
