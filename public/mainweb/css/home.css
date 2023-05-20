@@ -92,7 +92,7 @@ iframe {
 }
 
 @media(min-width: 768px){
-    .col-md-4 {
+    .prize-container .row .col-md-4 {
         width: 30% !important;
     }
 }
