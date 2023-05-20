@@ -138,7 +138,7 @@
 
 
 <div class="container mt-4 px-5">
-    <div class="d-flex justify-content-center my-5 fs-1 myTitle" style="color: #A0583A">PRIZES</div>
+    <div class="d-flex justify-content-center my-5 fs-1 myTitle">PRIZES</div>
     <div class="prize-container">
         <div class="row px-2 mx-4 justify-content-around">
             <div class="col-md-4 mt-5 py-3 px-3 prize1">
@@ -204,7 +204,7 @@
     </div>
 
     <div class="container">
-        <div class="d-flex justify-content-center my-5 fs-1 myTitle text-center" style="color: #A0583A">JOIN US NOW</div>
+        <div class="d-flex justify-content-center my-5 fs-1 myTitle text-center">JOIN US NOW</div>
         <div class="d-flex justify-content-center">
             <div class="video">
                 <iframe width="500" height="350" src="https://www.youtube.com/embed/vjEuxzl2jzg" allowfullscreen class="embed-responsive-item">

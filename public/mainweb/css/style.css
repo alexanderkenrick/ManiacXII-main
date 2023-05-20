@@ -7,7 +7,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    background-color: #eceeca;
+    background-color: #0b2447;
     min-height: 1vh;
     padding-top: 70px;
     color: #4f200d;
@@ -44,7 +44,7 @@ body {
     font-size: 3.5em !important;
     letter-spacing: 3px;
     line-height: 60px;
-    color: #ff8400;
+    color: #fbae17;
     text-align: center;
 }
 
