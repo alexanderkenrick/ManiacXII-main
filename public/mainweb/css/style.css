@@ -13,31 +13,83 @@ body {
     color: #4f200d;
 }
 
+
+/* Start of Footer */
 #footer {
-    background-color: #aa8561;
+    background-color: #19376d;
     margin-top: 150px;
     padding: 20px 0;
-    color: #eceeca;
+    color: #fff;
     font-weight: 600;
     font-size: 1.2em;
     position: relative;
 }
-
-.myIcon {
-    font-size: 1.2em;
-    color: #eceeca;
-}
-
-/* .myIcon:hover {
-    color: #d0d2ad;
-} */
-
 .footer-img {
     width: 100%;
     position: absolute;
     bottom: 450px;
     z-index: -2;
 }
+.wa-num {
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.wa-num:hover {
+    color: #d0d2ad;
+}
+
+.myIcon {
+    font-size: 1.2em;
+    color: #0b2447;
+}
+
+.socialmedia-wrapper{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    padding: 12px;
+    display: block;
+}
+
+.footer-icon{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.contact-person-wrapper > .socialmedia-wrapper > .footer-icon{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    transform: translateX(1px);
+}
+
+.contact-person-wrapper > .socialmedia-wrapper{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    display: block;
+    margin-right: 0.5rem;
+}
+
+.contact-person-wrapper a{
+   color: #fff;
+}
+
+
+/* End of Footer */
+
+/* .myIcon:hover {
+    color: #d0d2ad;
+} */
+
+
 
 .myTitle {
     font-family: "alice_in_wonderland", Arial, sans-serif;
@@ -48,14 +100,7 @@ body {
     text-align: center;
 }
 
-.wa-num {
-    color: #eceeca;
-    transition: all 0.3s;
-}
 
-.wa-num:hover {
-    color: #d0d2ad;
-}
 
 .width-100 {
     width: 100%;

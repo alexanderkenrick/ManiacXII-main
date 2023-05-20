@@ -10,11 +10,11 @@
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #eceeca !important;
+    color: #a5d7e8 !important;
 }
 
 .navbar-nav .nav-item .nav-link.active {
-    color: #eceeca !important;
+    color: #a5d7e8 !important;
 }
 
 .navbar-nav .nav-item .nav-link.dropdown-toggle {

@@ -1,5 +1,5 @@
 .prize-container {
-    border-radius: 50px;
+    border-radius: 40px;
     background-color: #fac7d0;
 }
 
@@ -16,10 +16,10 @@
 }
 
 .prize1{
-    border-radius: 40px;
+    border-radius: 20px;
     background-color: #fef2f4;
     text-align: center;
-    margin-left: 3px;
+
 }
 
 .note1{

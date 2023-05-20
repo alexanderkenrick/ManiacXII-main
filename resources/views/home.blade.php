@@ -137,10 +137,10 @@
 <!-- end timeline -->
 
 
-<div class="container mt-4 px-5">
+<div class="container mt-4 px-4 sm-px-5">
     <div class="d-flex justify-content-center my-5 fs-1 myTitle">PRIZES</div>
     <div class="prize-container">
-        <div class="row px-2 mx-4 justify-content-around">
+        <div class="row px-2  mx-2 sm-mx-4 justify-content-around">
             <div class="col-md-4 mt-5 py-3 px-3 prize1">
             <div class="d-flex justify-content-center">
                 <span class="dot">

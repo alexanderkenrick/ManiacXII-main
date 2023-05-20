@@ -39,34 +39,73 @@
 
     {{-- Footer --}}
     <section id="footer">
-        <img src="{{ asset('../mainweb/img/ornament/footer-img.png') }}" alt="Footer Image" class="footer-img">
         <div class="container">
             <div class="row text-center">
-                <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center">
+                <div class="col-12 d-flex align-items-center justify-content-center">
                     <div class="row">
                         <div class="col-12 mt-3 fs-3">Social Media</div>
                         <div class="col-12">
-                            <i class="bi bi-instagram myIcon"></i> <a href="https://www.instagram.com/maniac_ubaya/" target="_blank" class="wa-num">maniac_ubaya</a> 
-                            <br>
-                            <i class="bi bi-youtube myIcon"></i> <a href="https://www.youtube.com/channel/UCUVYlb7cc67RC17tNngSeug" target="_blank" class="wa-num">MANIAC XI UBAYA</a>
-                            <br>
-                            <i class="fa-brands fa-line myIcon"></i> <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=994nxsfr" class="wa-num">@994nxsfr</a>
+                            <div class="row mt-3">
+                                <div class="col-3 d-flex align-items-center justify-content-center">
+                                    <a href="https://www.instagram.com/maniac_ubaya/" target="_blank" class="socialmedia-wrapper d-flex align-items-center justify-content-center">
+                                        <img src="{{ asset('../mainweb/img/icon/instagram.png') }}" alt="" srcset="" class="footer-icon">
+                                    </a>
+                                </div>
+                                <div class="col-3 d-flex align-items-center justify-content-center">
+                                    <a href="https://www.instagram.com/maniac_ubaya/" target="_blank" class="socialmedia-wrapper d-flex align-items-center justify-content-center">
+                                        <img src="{{ asset('../mainweb/img/icon/youtube.png') }}" alt="" srcset="" class="footer-icon">
+                                    </a>
+                                </div>
+                                <div class="col-3 d-flex align-items-center justify-content-center">
+                                    <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=994nxsfr" target="_blank" class="socialmedia-wrapper d-flex align-items-center justify-content-center">
+                                        <img src="{{ asset('../mainweb/img/icon/line.png') }}" alt="" srcset="" class="footer-icon">
+                                    </a>
+                                </div>
+                                <div class="col-3 d-flex align-items-center justify-content-center">
+                                    <a href="mailto:maniac.ubayaa@gmail.com" class="socialmedia-wrapper d-flex align-items-center justify-content-center" title="maniac.ubayaa@gmail.com">
+                                        <img src="{{ asset('../mainweb/img/icon/email.png') }}" alt="" srcset="" class="footer-icon">
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-12 mt-4 fs-3">Contact Person</div>
-                        <div class="col-12"><i class="bi bi-whatsapp myIcon"></i> Meliyana : <a href="https://wa.me/+6282255940933" class="wa-num" target="_blank">082255940933</a></div>
-                        <div class="col-12"><i class="bi bi-whatsapp myIcon"></i> Ian Wahyudi : <a href="https://wa.me/+6287855956975" class="wa-num" target="_blank">087855956975</a></div>
+
+                    </div>
+
+                    
+                </div>
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <div class="row">
+                        <div class="col-12 fs-3" style="margin-top: 2rem">Contact Person</div>
+                        <div class="col-12 ">
+                            <div class="row mt-2 d-flex align-items-center">
+                                <div class="col-12 d-flex align-items-center justify-content-center contact-person-wrapper">
+                                    <a href="https://wa.me/+6285730781045" target="_blank" class="socialmedia-wrapper d-flex align-items-center justify-content-center">
+                                        <img src="{{ asset('../mainweb/img/icon/whatsapp.png') }}" alt="" srcset="" class="footer-icon"> 
+                                    </a>
+                                    Richard : &nbsp;<a href="https://wa.me/+6285730781045" target="_blank"> 081260644333</a>
+                                    
+                                </div>
+                                <div class="col-12 d-flex align-items-center justify-content-center contact-person-wrapper mt-2">
+                                    <a href="https://wa.me/+6285730781045" target="_blank" class="socialmedia-wrapper d-flex align-items-center justify-content-center">
+                                        <img src="{{ asset('../mainweb/img/icon/whatsapp.png') }}" alt="" srcset="" class="footer-icon"> 
+                                    </a>
+                                    Paulina : &nbsp;<a href="https://wa.me/+6285730781045" target="_blank"> 085730781045</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                {{-- <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="row">
                         <div class="col-12 mt-3 fs-3">Our Location</div>
                         <div class="col-12 mt-2">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7689.26769629826!2d112.76750596476232!3d-7.3212739372670725!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7311b083dc2502a7!2sUBAYA%20(%20UNIVERSITAS%20SURABAYA%20)!5e0!3m2!1sen!2sid!4v1652534141596!5m2!1sen!2sid" width="80%" height="250"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 mt-5 fs-6">Developed by MANIAC XI Comitee</div>
-                <div class="col-12 fs-6">Lapor bug & kendala web hubungi si.maniac10@gmail.com</div>
+                </div> --}}
+                <div class="col-12 mt-5 fs-6">Developed by MANIAC XII Comitee</div>
+                <div class="col-12 fs-6">Lapor bug & kendala web hubungi <a href="mailto:si.maniac10@gmail.com" style="color: #fff">si.maniac10@gmail.com</a></div>
             </div>
         </div>
     </section>
