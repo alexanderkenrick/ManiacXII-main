@@ -42,7 +42,7 @@
 
             <footer class="footer-bs mt-3">
                 <div class="row w-100 p-5">
-                    <div class="col-md-5 footer-brand animated fadeInLeft" style="padding-left: 80px">
+                    <div class="col-md-5 footer-brand animated fadeInLeft">
                         <h2 style="">Maniac XII</h2>
                         <p>
                             MANIAC (Multimedia and Interactive Art Competition) merupakan lomba berbasis multimedia untuk siswa SMA/K sederjat yang mencakup rally games, game concept design, dan game asset design. MANIAC diselenggarakan oleh Program Studi Teknik Informatika program Multimedia Universitas Surabaya.
@@ -54,7 +54,7 @@
                             <img src="" style="height: 60px;">
                         </div>
                     </div>
-                    <div class="col-md-2 footer-nav animated fadeInUp" style="padding-left: 100px">
+                    <div class="col-md-2 footer-nav animated fadeInUp" >
                         <h4 style="transform:translateX(-1px)">MENU</h4>
                         {{-- <div class="col-md-6"> --}}
                         <ul class="pages p-0">
@@ -65,7 +65,7 @@
     
                         </ul>
                     </div>
-                    <div class="col-md-2 footer-social animated fadeInDown" style="padding-left: 60px">
+                    <div class="col-md-2 footer-social animated fadeInDown">
                         <h4 style="">Follow Us</h4>
                         <ul>
                             <li> <a href="https://www.instagram.com/maniac_ubaya/?hl=en" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width='16px' height='16px' fill='#fff'><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
@@ -75,7 +75,7 @@
         
                         </ul>
                     </div>
-                    <div class="col-md-3 footer-social animated fadeInDown" style="padding-left: 60px">
+                    <div class="col-md-3 footer-social animated fadeInDown">
                         <h4 style="">Contact Us</h4>
                         <ul>
                             <li><a href="https://wa.me/+6281260644333" target="_blank" rel="noopener">
@@ -102,7 +102,7 @@
                         </ul>
                     </div>
     
-                    <p class="mt-2" style="padding-left: 80px">
+                    <p class="mt-2 footer-brand">
                         <span class="float-md-start d-block d-md-inline-block mt-25">COPYRIGHT &copy; MANIAC XII Comitee</span>
                     </p>
                 </div>

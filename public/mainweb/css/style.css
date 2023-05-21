@@ -55,11 +55,15 @@ a {
     margin-bottom: 8px;
 }
 
-@media (min-width: 768px) {
-    .footer-bs .footer-nav,
-    .footer-bs .footer-social,
-    .footer-bs .footer-ns {
-        
+@media (min-width: 993px) {
+    .footer-brand{
+        padding-left: 80px;
+    }
+    .footer-nav{
+        padding-left: 100px;
+    }
+    .footer-social{
+        padding-left: 60px;
     }
 }
 
