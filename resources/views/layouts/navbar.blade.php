@@ -2,10 +2,10 @@
     <div class="container">
       <a class="navbar-brand" href="/">
         <div class="brand-img">
-            <img src="{{ asset('../mainweb/img/logo/logo-ubaya.png') }}" alt="Logo Ubaya">
+            <img src="{{ asset('/mainweb/img/logo/logo-ubaya.png') }}" alt="Logo Ubaya">
         </div>
         <div class="brand-img">
-            <img src="{{ asset('../mainweb/img/logo/logo-maniac.png') }}" alt="Logo MANIAC">
+            <img src="{{ asset('/mainweb/img/logo/logo-maniac.png') }}" alt="Logo MANIAC">
         </div>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

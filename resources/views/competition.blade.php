@@ -5,7 +5,7 @@
 @endsection
 
 @section('style')
-    <link rel="stylesheet" href="{{ asset('../mainweb/css/competition.css') }}">
+    <link rel="stylesheet" href="{{ asset('/mainweb/css/competition.css') }}">
 @endsection
 
 @section('content')
