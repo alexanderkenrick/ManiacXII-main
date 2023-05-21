@@ -9,7 +9,7 @@
 @endsection
 
 @section('content')
-    <div class="container mt-5">
+    <div class="container mt-5" style="padding-bottom: 86px">
         <h2 class="d-flex justify-content-center my-5 fs-1 mb-4 myTitle">COMPETITIONS</h2>
         <div class="d-flex flex-column">
             <div class="compe-container text-center">

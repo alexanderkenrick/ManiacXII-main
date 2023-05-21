@@ -22,14 +22,14 @@
 
 .timeline-wrapper:before {
   content: "";
-  background: #A0583A ;
+  background: #a0583a ;
   width: 3px;
   height: 100%;
   position: absolute;
   left: 38px;
 }
 .timeline-yr {
-  background: #A0583A;
+  background: #a36948;
   border-radius: 100%;
   position: absolute;
   width: 75px;
@@ -103,7 +103,7 @@
   }
   .timeline-wrapper:before {
     content: "";
-    background: #A0583A;
+    background: #a0583a;
     width: 3px;
     height: 100%;
     position: absolute;

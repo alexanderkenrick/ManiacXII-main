@@ -2,14 +2,14 @@
     text-align: center;
 }
 .color-title-faq, .color-title-faq:not(.collapsed){
-    background-color: #A0583A;
+    background-color: #fcc8d1;
     border: 0px;
-    color: #ECEECA;
+    color: #0c2548;
     font-size: 21px;
 }
 .color-inside-faq{
-    background-color: #AA8561;
-    color: #ECEECA;
+    background-color: #fef2f4;
+    color: #0c2548;
     font-size: 16px;
 }
 iframe{

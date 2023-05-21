@@ -28,15 +28,16 @@
     @yield('style')
 
     <title>
-        MANIAC XI - @yield('title')
+        MANIAC XII - @yield('title')
     </title>
 </head>
 <body>
     
     @include('layouts.navbar')
 
-    @yield('content')
-
+    {{-- <div class="container px-4"> --}}
+        @yield('content')
+    {{-- </div> --}}
     {{-- Footer --}}
     <section id="footer">
 

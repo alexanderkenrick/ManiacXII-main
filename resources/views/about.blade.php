@@ -10,7 +10,7 @@
 
 @section('content')
 <div class="background">
-<div class="container content">
+    <div class="container content">
         <h2 class="d-flex justify-content-center my-5 fs-1 mb-4 myTitle">WHAT IS MANIAC ?</h2>
         <div class="carousel-cont text-center">
             <div class="carousel-slider">
@@ -35,36 +35,36 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="{{ asset("../mainweb/img/photos/image7.jpg") }}"
-                                class="d-block w-100" alt="MANIAC X">
+                            <img src="{{ asset("../mainweb/img/photos/image1.png") }}"
+                                class="d-block w-100" alt="MANIAC XI">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ asset("../mainweb/img/photos/image6.jpg") }}"
-                                class="d-block w-100" alt="MANIAC X">
+                            <img src="{{ asset("../mainweb/img/photos/image2.png") }}"
+                                class="d-block w-100" alt="MANIAC XI">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ asset("../mainweb/img/photos/image9.jpg") }}"
-                                class="d-block w-100" alt="MANIAC X">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="{{ asset("../mainweb/img/photos/image8.jpg") }}"
-                                class="d-block w-100" alt="MANIAC X">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="{{ asset("../mainweb/img/photos/image1.jpg") }}"
-                                class="d-block w-100" alt="MANIAC IX">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="{{ asset("../mainweb/img/photos/image2.jpg") }}"
-                                class="d-block w-100" alt="MANIAC IX">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="{{ asset("../mainweb/img/photos/image3.jpg") }}"
-                                class="d-block w-100" alt="MANIAC IX">
+                            <img src="{{ asset("../mainweb/img/photos/image3.png") }}"
+                                class="d-block w-100" alt="MANIAC XI">
                         </div>
                         <div class="carousel-item">
                             <img src="{{ asset("../mainweb/img/photos/image4.jpg") }}"
-                                class="d-block w-100" alt="MANIAC IX">
+                                class="d-block w-100" alt="MANIAC XI">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ asset("../mainweb/img/photos/image5.jpg") }}"
+                                class="d-block w-100" alt="MANIAC XI">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ asset("../mainweb/img/photos/image6.jpg") }}"
+                                class="d-block w-100" alt="MANIAC XI">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ asset("../mainweb/img/photos/image7.jpg") }}"
+                                class="d-block w-100" alt="MANIAC XI">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ asset("../mainweb/img/photos/image8.jpg") }}"
+                                class="d-block w-100" alt="MANIAC XI">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -96,14 +96,14 @@
             </div>
             <div class="d-flex justify-content-center">
                 <div class="video">
-                    <iframe width="500" height="350"
-                        src="https://www.youtube.com/embed/GAwwDNwLEXE" allowfullscreen
-                        class="embed-responsive-item">
+                    
+                    <iframe width="500" height="350" src="https://www.youtube.com/embed/pQvMYG4wigY" title="After Movie Maniac XI" 
+                        class="embed-responsive-item" allowfullscreen>
                     </iframe>
                 </div>
             </div>
         </div>
-        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 17.png') }}" alt="cloud-png" style="width: 500px;position: absolute; top:65px; right: -160px;">
+        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 17.png') }}" alt="cloud-png" style="width: 400px;position: absolute; top:90px; right: -70px;">
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 15.png') }}" alt="cloud-png" style="width: 500px;position: absolute; top:1000px; left: -200px;">
     </div>
 </div>
