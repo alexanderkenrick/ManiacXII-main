@@ -103,7 +103,7 @@
                 </div>
             </div>
         </div>
-        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 17.png') }}" alt="cloud-png" style="width: 500px;position: absolute; top:65px; right: -120px;">
+        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 17.png') }}" alt="cloud-png" style="width: 500px;position: absolute; top:65px; right: -160px;">
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 15.png') }}" alt="cloud-png" style="width: 500px;position: absolute; top:1000px; left: -200px;">
     </div>
 </div>

@@ -114,8 +114,8 @@ a {
 
 .myBtn {
     display: block;
-    background-color: rgba(255, 217, 61, 0.8);
-    color: #4f200d;
+    background-color: rgba(255, 217, 61, 1);
+    color: #19376d;
     border-radius: 15px;
     border: none;
     height: 40px;
@@ -124,7 +124,7 @@ a {
 }
 
 .myBtn:hover {
-    background-color: #7f462e;
+    background-color: #a36948;
     color: #eceeca;
 }
 
@@ -155,12 +155,12 @@ a {
     height: 20px;
     top: 2px;
     left: 8px;
-    border: 2px solid rgba(255, 217, 61, 0.8);
+    border: 2px solid #bc905b;
     border-radius: 2px;
 }
 
 .myChkbox:checked ~ .checkmark {
-    background-color: #a0583a;
+    background-color: #a36948;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -190,22 +190,22 @@ a {
 
 .chkText {
     display: inline-block;
-    color: rgba(255, 217, 61, 0.8);
+    color: #a36948;
     margin-bottom: 10px;
     background-color: transparent;
 }
 
 .have-account {
-    color: rgba(255, 217, 61, 0.8);
+    color: rgba(255, 217, 61);
     font-weight: 600;
 }
 
 .have-account a {
-    color: rgba(255, 217, 61, 0.8);
+    color: rgba(255, 217, 61);
 }
 
 .have-account a:hover {
-    color: #7f462e;
+    color: #a36948;
 }
 
 .myLabel {
