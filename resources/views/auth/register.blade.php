@@ -22,7 +22,7 @@
                             <Label class="myLabel">Nama Tim</Label>
                             <input type="text" name="team_name" id="txtNamaTim"
                                 class="myTextbox width-90 @error('team_name') is-invalid @enderror" placeholder="Nama Tim"
-                                >
+                                 required>
                             @error('team_name')
                                 <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -31,7 +31,7 @@
                             <label class="myLabel">Nama Sekolah</label>
                             <input type="text" name="school_name" id="txtNamaSekolah"
                                 class="myTextbox width-90 @error('school_name') is-invalid @enderror"
-                                placeholder="Nama Sekolah" >
+                                placeholder="Nama Sekolah"  required>
                             @error('school_name')
                                 <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -41,7 +41,7 @@
                             <textarea name="school_address" id="school_address" cols="30" rows="10"
                                 class="myTextbox width-90  @error('school_address') is-invalid @enderror"
                                 placeholder="cth. Jalan Raya Kalirungkut, Surabaya 60293"
-                                style="padding-top: 5px; padding-bottom: 5px; height: 80px; min-height: 40px;"
+                                style="padding-top: 5px; padding-bottom: 5px; height: 80px; min-height: 40px;" required
                                 ></textarea>
                             @error('school_address')
                                 <div class="invalid-feedback text-center">
@@ -51,7 +51,7 @@
                             <label class="myLabel">No. Telepon Sekolah</label>
                             <input type="text" name="school_number" id="txtNamaSekolah"
                                 class="myTextbox width-90  @error('school_number') is-invalid @enderror"
-                                placeholder="No. Telepon Sekolah" >
+                                placeholder="No. Telepon Sekolah"  required>
                             @error('school_number')
                                 <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -60,7 +60,7 @@
                             <label class="myLabel">Username</label>
                             <input type="text" name="username" id="txtUsername"
                                 class="myTextbox width-90  @error('username') is-invalid @enderror" placeholder="Username"
-                                >
+                                required>
                             @error('username')
                                 <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -69,7 +69,7 @@
                             <label class="myLabel">Password</label>
                             <input type="password" name="password" id="txtPassword"
                                 class="myTextbox width-90 @error('password') is-invalid @enderror" placeholder="Password"
-                                >
+                                required>
                             @error('password')
                                 <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -87,7 +87,7 @@
                             <label class="myLabel">Nama Ketua Tim</label>
                             <input type="text" name="name" id="txtNamaKetua"
                                 class="myTextbox width-90 @error('name') is-invalid @enderror" placeholder="Nama Ketua Tim"
-                                >
+                                required>
                             @error('name')
                                 <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -96,7 +96,7 @@
                             <label class="myLabel">Nomor HP</label>
                             <input type="text" name="phone_number" id="txtNoHpKetua"
                                 class="myTextbox width-90 @error('phone_number') is-invalid @enderror"
-                                placeholder="Nomor HP" >
+                                placeholder="Nomor HP" required>
                             @error('phone_number')
                                 <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -105,7 +105,7 @@
                             <label class="myLabel">Email</label>
                             <input type="email" name="email" id="txtEmailKetua"
                                 class="myTextbox width-90 @error('email') is-invalid @enderror" placeholder="Email"
-                                >
+                                required>
                             @error('email')
                                 <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -115,7 +115,7 @@
                             <input type="file" accept="application/pdf,image/*" name="image"
                                 id="KartuPelajarKetua formFileMultiple"
                                 class="myInputFile width-90 @error('image') is-invalid @enderror"
-                                style="color:#a0583a;">
+                                style="color:#a0583a;" required>
                             @error('image')
                                 <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -128,7 +128,7 @@
                             <h5 class="text-center mt-5" style="font-weight: 600;">Data Anggota 1</h5>
                             <label class="myLabel">Nama Anggota 1</label>
                             <input type="text" name="name1" id="txtNamaAnggota1" class="myTextbox width-90"
-                                placeholder="Nama Anggota 1">
+                                placeholder="Nama Anggota 1" required>
                             @error('name1')
                                 <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -136,7 +136,7 @@
                             @enderror
                             <label class="myLabel">Nomor HP</label>
                             <input type="text" name="phone_number1" id="txtNoHpAnggota1" class="myTextbox width-90"
-                                placeholder="Nomor HP">
+                                placeholder="Nomor HP" required>
                                 @error('phone_number1')
                                 <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -144,7 +144,7 @@
                                 @enderror
                             <label class="myLabel">Email</label>
                             <input type="email" name="email1" id="txtEmailAnggota1" class="myTextbox width-90"
-                                placeholder="Email">
+                                placeholder="Email" required>
                                 @error('email1')
                                 <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -153,7 +153,7 @@
                             <label class="myLabel">Kartu Pelajar (Max 1 MB)</label>
                             <input type="file" accept="application/pdf,image/*" name="image1"
                                 id="KartuPelajarAnggota1 formFileMultiple"
-                                class="myInputFile width-90 @error('image1') is-invalid @enderror" style="color:#a0583a;">
+                                class="myInputFile width-90 @error('image1') is-invalid @enderror" style="color:#a0583a;" required>
                                 @error('image1')
                                  <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -166,7 +166,7 @@
                             <h5 class="text-center mt-5" style="font-weight: 600;">Data Anggota 2</h5>
                             <label class="myLabel">Nama Anggota 2</label>
                             <input type="text" name="name2" id="txtNamaAnggota2" class="myTextbox width-90 @error('name2') is-invalid @enderror"
-                                placeholder="Nama Anggota 2">
+                                placeholder="Nama Anggota 2" required>
                                 @error('name2')
                                  <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -174,7 +174,7 @@
                                 @enderror
                             <label class="myLabel">Nomor HP</label>
                             <input type="text" name="phone_number2" id="txtNoHpAnggota2" class="myTextbox width-90 @error('phone_number2') is-invalid @enderror"
-                                placeholder="Nomor HP">
+                                placeholder="Nomor HP" required>
                                  @error('phone_number2')
                                  <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -182,7 +182,7 @@
                                 @enderror
                             <label class="myLabel">Email</label>
                             <input type="email" name="email2" id="txtEmailAnggota2" class="myTextbox width-90 @error('email2') is-invalid @enderror"
-                                placeholder="Email">
+                                placeholder="Email" required>
                                  @error('email2')
                                  <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -191,7 +191,7 @@
                             <label class="myLabel">Kartu Pelajar (Max 1 MB)</label>
                             <input type="file" accept="application/pdf,image/*" name="image2"
                                 id="KartuPelajarAnggota2 formFileMultiple"
-                                class="myInputFile width-90 @error('image2') is-invalid @enderror" style="color:#a0583a;">
+                                class="myInputFile width-90 @error('image2') is-invalid @enderror" style="color:#a0583a;" required>
                                 @error('image2')
                                  <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -215,16 +215,16 @@
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                 <div class="modal-content">
-                    <div class="modal-header" style="background-color: #A0583A; color: #ECEECA; border: none">
+                    <div class="modal-header" style="background-color: #19376d; color: ##f5f0e8; border: none">
                         <h5 class="modal-title" id="modalPendaftaranLabel">Catatan Pendaftaran</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body" style="background-color: #ECEECA; color: #A0583A;">
+                    <div class="modal-body" style="background-color: #0b2447; color: #f5f0e8;">
                         <div class="container">
                             <h3 class="text-center">Alur Pendaftaran Online</h3>
                             <ol>
-                                <li>Peserta melakukan pendaftaran pada website MANIAC XI (<a
-                                        href="https://maniac.ifubaya.id">maniac.ifubaya.id</a>).</li>
+                                <li>Peserta melakukan pendaftaran pada website MANIAC XII (<a
+                                        href="https://maniacubaya.com">maniacubaya.com</a>).</li>
                                 <li>
                                     Peserta wajib mengisi kelengkapan data untuk pendaftaran, meng-<i>upload scan</i> kartu
                                     pelajar. <br>
@@ -245,17 +245,17 @@
                                     format nama Nama Tim_Nama Anggota.
                                 </li>
                                 <li>Harap perhatikan kelengkapan data yang diperlukan untuk pendaftaran.</li>
-                                <li>Tim akan dikonfirmasi telah terdaftar sebagai peserta MANIAC XI melalui email yang akan
+                                <li>Tim akan dikonfirmasi telah terdaftar sebagai peserta MANIAC XII melalui email yang akan
                                     dikirimkan oleh panitia kepada ketua tim dalam jangka waktu maksimal 1 minggu setelah
                                     peserta melakukan pendaftaran di website.</li>
                                 <li>Apabila dalam jangka waktu 1 minggu peserta belum mendapatkan email konfirmasi, maka
-                                    dapat menghubungi nomor Whatsapp 087855956985 (Ian Wahyudi)</li>
+                                    dapat menghubungi nomor Whatsapp 085730781045 (Paulina)</li>
                             </ol>
                             <br>
 
-                            <h3 class="text-center">Persyaratan Peserta MANIAC XI</h3>
+                            <h3 class="text-center">Persyaratan Peserta MANIAC XII</h3>
                             <ol>
-                                <li>Satu tim terdiri dari 3 siswa/siswi aktif (maksimal kelas XI di Tahun Ajaran 2021/2022)
+                                <li>Satu tim terdiri dari 3 siswa/siswi aktif (maksimal kelas XI di Tahun Ajaran 2022/2023)
                                     Sekolah Menengah Atas (SMA)/Sekolah Menengah Kejuruan (SMK)/sederajat yang berasal dari
                                     sekolah yang sama <b>(boleh berasal dari jenjang dan peminatan yang berbeda).</b></li>
                                 <li>Dikarenakan Babak Final MANIAC XI diadakan secara luring/offline. Peserta diharapkan
@@ -264,13 +264,13 @@
                                 <li>Registrasi dilakukan oleh salah satu perwakilan TIM.</li>
                                 <li>Tim yang sudah terdaftar dapat mengganti anggota tim <b>paling lambat hingga
                                     2 minggu sebelum diadakannya <i>Technical Meeting</i> Babak Penyisihan.</b></li>
-                                <li>Setiap peserta MANIAC XI harus mempunyai minimal 1 laptop/komputer dan 1 <i>gadget</i>
+                                {{-- <li>Setiap peserta MANIAC XI harus mempunyai minimal 1 laptop/komputer dan 1 <i>gadget</i>
                                     (<i>smartphone</i>/tablet/laptop/komputer/dan lainnya), dan mempunyai koneksi internet
                                     yang cukup dan memadai. <br> Catatan: <i>Gadget</i> harus memiliki kamera yang dapat
-                                    digunakan saat bergabung pada Zoom meeting.</li>
+                                    digunakan saat bergabung pada Zoom meeting.</li> --}}
                                 <li>Peserta diwajibkan mengisi data pendaftaran secara lengkap dan sesuai. Pendaftaran
                                     dilakukan secara <i>online</i> melalui <a
-                                        href="https://maniac.ifubaya.id">maniac.ifubaya.id</a>.</li>
+                                        href="https://maniacubaya.com">maniacubaya.com</a>.</li>
                             </ol>
                         </div>
                     </div>
