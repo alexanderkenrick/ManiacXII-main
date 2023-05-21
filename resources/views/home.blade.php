@@ -56,7 +56,7 @@
             <h2 class="d-flex justify-content-center my-5 fs-1 mb-4 myTitle">TIMELINE</h2>
             <div class="row timeline-big justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-12">
-                    <img src="{{ asset('mainweb/img/poster/timeline.png') }}" alt="Timeline" width="100%">
+                    <img src="{{ asset('mainweb/img/poster/Timeline.png') }}" alt="Timeline" width="100%">
                 </div>
             </div>
             <div class="row row-content timeline-small mb-5">
