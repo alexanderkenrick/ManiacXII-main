@@ -9,7 +9,8 @@
 @endsection
 
 @section('content')
-    <div class="container mt-5">
+<div class="background">
+<div class="container content">
         <h2 class="d-flex justify-content-center my-5 fs-1 mb-4 myTitle">WHAT IS MANIAC ?</h2>
         <div class="carousel-cont text-center">
             <div class="carousel-slider">
@@ -102,5 +103,10 @@
                 </div>
             </div>
         </div>
+        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 17.png') }}" alt="cloud-png" style="width: 500px;position: absolute; top:65px; right: -120px;">
+        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 15.png') }}" alt="cloud-png" style="width: 500px;position: absolute; top:1000px; left: -200px;">
     </div>
+</div>
+    
+
 @endsection
