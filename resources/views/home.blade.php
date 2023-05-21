@@ -10,7 +10,7 @@
 @endsection
 
 @section('content')
-<div class="wrapper" style="background: url('{{ asset('mainweb/img/background/bg_home.png') }}') top center / cover no-repeat;padding-top: 70px;">
+<div class="wrapper" style="background: url('{{ asset('mainweb/img/background/bg_home.png') }}') top center / cover no-repeat;padding-top: 70px;z-index:1;">
     <section id="header" style=" ">
         <div class="container">
             <div class="row justify-content-center">
@@ -40,13 +40,17 @@
     
     <section id="poster" class="mt-5 pt-5">
         <div class="container d-flex justify-content-center">
+            <div class="cloud-container2">
+                <img src="{{ asset('mainweb/img/ornament/awan2.png') }}" alt="" srcset="">
+            </div>
+            
+            <div class="row justify-content-center w-100">
+                <div class="col-xl-7 col-lg-9 col-md-9" style="position: relative">
+                    <a href="{{ asset('mainweb/img/poster/poster.png') }}" target="blank" style=""><img src="{{ asset('mainweb/img/poster/poster-scroll.png') }}" alt="Scroll" width="100%; height:100%; object-fit: contain;z-index:2"></a>
+                </div>
+            </div>
             <div class="cloud-container">
                 <img src="{{ asset('mainweb/img/ornament/awan1.png') }}" alt="" srcset="">
-            </div>
-            <div class="row justify-content-center w-100">
-                <div class="col-xl-7 col-lg-9 col-md-9">
-                    <a href="{{ asset('mainweb/img/poster/poster.png') }}" target="blank"><img src="{{ asset('mainweb/img/poster/poster-scroll.png') }}" alt="Scroll" width="100%; height:100%; object-fit: contain;"></a>
-                </div>
             </div>
         </div>
     </section>
