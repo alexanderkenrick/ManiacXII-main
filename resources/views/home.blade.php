@@ -123,7 +123,7 @@
                 <div class="col-md-4 mt-5 py-3 px-3 prize1">
                 <div class="d-flex justify-content-center">
                     <span class="dot">
-                        <img class= "crown" src="{{ asset('../mainweb/img/icon/Mahkota_1.png') }}" alt="Juara 1" width="100">
+                        <img class= "crown" src="{{ asset('../mainweb/img/icon/juara1.png') }}" alt="Juara 1" width="100">
                     </span>
                 </div>
                 <div class="d-flex justify-content-center fs-3" style="color: #19376d"><b>Juara 1</b></div>
@@ -136,7 +136,7 @@
                 <div class="col-md-4 mt-5 py-3 px-3 prize1">
                     <div class="d-flex justify-content-center">
                         <span class="dot">
-                            <img class= "crown" src="{{ asset('../mainweb/img/icon/Mahkota_2.png') }}" alt="Juara 2" width="100">
+                            <img class= "crown" src="{{ asset('../mainweb/img/icon/juara2.png') }}" alt="Juara 2" width="100">
                         </span>
                     </div>
                     <div class="d-flex justify-content-center fs-3" style="color: #19376d"><b>Juara 2</b></div>
@@ -149,7 +149,7 @@
                 <div class="col-md-4 mt-5 py-3 px-3 prize1">
                     <div class="d-flex justify-content-center">
                         <span class="dot">
-                            <img class= "crown" src="{{ asset('../mainweb/img/icon/Mahkota_3.png') }}" alt="Juara 3" width="100">
+                            <img class= "crown" src="{{ asset('../mainweb/img/icon/juara3.png') }}" alt="Juara 3" width="100">
                         </span>
                     </div>
                     <div class="d-flex justify-content-center fs-3" style="color: #19376d"><b>Juara 3</b></div>

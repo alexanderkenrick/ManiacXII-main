@@ -4,15 +4,16 @@
 }
 
 .dot {
-    height: 125px;
-    width: 125px;
+    height: 120px;
+    width: 120px;
     background-color: #ECEECA;
     border-radius: 50%;
     display: inline-block;
+    padding: 0px;
 } 
 
 .crown{
-    margin: 38px 12px;
+
 }
 
 .prize1{
