@@ -38,9 +38,12 @@
 
 
 <section id="poster" class="mt-5 pt-5">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-8 col-md-8">
+    <div class="container d-flex justify-content-center">
+        <div class="cloud-container">
+            <img src="{{ asset('mainweb/img/ornament/awan1.png') }}" alt="" srcset="">
+        </div>
+        <div class="row justify-content-center w-100">
+            <div class="col-xl-7 col-lg-9 col-md-9">
                 <a href="{{ asset('mainweb/img/poster/poster.png') }}" target="blank"><img src="{{ asset('mainweb/img/poster/poster-scroll.png') }}" alt="Scroll" width="100%; height:100%; object-fit: contain;"></a>
             </div>
         </div>
@@ -138,6 +141,9 @@
 
 
 <div class="container mt-4 px-4 sm-px-5">
+    <div class="butterfly-container">
+        <img src="{{ asset('mainweb/img/ornament/kupu-kupu-bawah.png') }}" alt="" srcset="">
+    </div>
     <div class="d-flex justify-content-center my-5 fs-1 myTitle">PRIZES</div>
     <div class="prize-container">
         <div class="row px-2  mx-2 sm-mx-4 justify-content-around">
