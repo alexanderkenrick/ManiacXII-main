@@ -47,12 +47,12 @@
                         <p>
                             MANIAC (Multimedia and Interactive Art Competition) merupakan lomba berbasis multimedia untuk siswa SMA/K sederjat yang mencakup rally games, game concept design, dan game asset design. MANIAC diselenggarakan oleh Program Studi Teknik Informatika program Multimedia Universitas Surabaya.
                         </p>
-                        <div class="brand-text mb-0 d-inline">
+                        {{-- <div class="brand-text mb-0 d-inline">
                             <img src="" style="height: 60px;">
                         </div>
                         <div class="brand-text mb-0 d-inline">
                             <img src="" style="height: 60px;">
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="col-md-2 footer-nav animated fadeInUp" >
                         <h4 style="transform:translateX(-1px)">MENU</h4>
