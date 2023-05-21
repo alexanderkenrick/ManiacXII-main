@@ -45,7 +45,7 @@
                     <div class="col-md-5 footer-brand animated fadeInLeft">
                         <h2 style="">Maniac XII</h2>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi architecto vel, fugit illum, harum, hic reiciendis aperiam sint et dolorum reprehenderit dolor? Dicta laudantium earum, eaque quod ut molestias beatae.
+                            MANIAC (Multimedia and Interactive Art Competition) merupakan lomba berbasis multimedia untuk siswa SMA/K sederjat yang mencakup rally games, game concept design, dan game asset design. MANIAC diselenggarakan oleh Program Studi Teknik Informatika program Multimedia Universitas Surabaya.
                         </p>
                         <div class="brand-text mb-0 d-inline">
                             <img src="" style="height: 60px;">

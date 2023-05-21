@@ -79,12 +79,13 @@ iframe {
 }
 
 .custom-btn.custom-btn-bg {
-    background: #a0583a;
-    color: #eceeca !important;
+    background: #fcc8d1;
+    color: #0b2447 !important;
+    transition: 0.25s ;
 }
 
 .custom-btn.custom-btn-bg:hover {
-    background: #7F462E;
+    background: #a5d7e8; 
 }
 
 .custom-btn-group {

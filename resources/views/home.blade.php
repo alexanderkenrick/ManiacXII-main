@@ -15,20 +15,20 @@
         <div class="row justify-content-center">
             <div class="about-text">
                 <div class="col-lg-10 mx-auto" id="header-text "style="text-align: center;">
-                    <img src="{{ asset('../mainweb/img/logo/logo-maniac-xi-2.png') }}" alt="" width="80%">
+                    <img src="{{ asset('../mainweb/img/logo/logo-header.png') }}" alt="" width="80%">
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mt-5">
                 <div class="d-flex justify-content-center mt-4 hadiah text-center">WIN UP TO <br>IDR 100+ MILLION </div>
                 
                 @php
                     date_default_timezone_set("Asia/Jakarta");
-                    $endDate = "1 September 2022";
+                    $endDate = "1 September 2023";
                     $endDateTimestamp = strtotime($endDate);  
                 @endphp
                 @if (time() < $endDateTimestamp)
                     @if (!auth()->check())
-                    <a href="{{ url('/register') }}" class="btn custom-btn custom-btn-bg">REGISTER NOW</a> 
+                    <a href="{{ url('/register') }}" class="btn custom-btn custom-btn-bg mt-3">REGISTER NOW</a> 
                     @endif
                 @endif
             </div>
