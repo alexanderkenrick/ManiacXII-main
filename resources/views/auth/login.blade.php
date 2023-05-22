@@ -45,35 +45,33 @@
 </style>
     <section id="login" style="margin: 25px 0; overflow: hidden;">
 <!-- asset-star -->
-    <div class="position-absolute star1">
+    <div class="position-absolute star1 ">
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 5.png') }}" alt="">
     </div>  
-    <div class="position-absolute star2">
+    <div class="position-absolute star2 ">
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 5.png') }}" alt="">
     </div>
-    <div class="position-absolute star3">  
+    <div class="position-absolute star3 ">  
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 5.png') }}" alt="">
     </div>
-    <div class="position-absolute star4">
+    <div class="position-absolute star4 ">
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 5.png') }}" alt=""> 
     </div>
-    <div class="position-absolute star5">
+    <div class="position-absolute star5 ">
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 5.png') }}" alt="">
     </div>
-    <div class="position-absolute star6">
+    <div class="position-absolute star6 ">
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 5.png') }}" alt="">
     </div>
-    <div class="position-absolute star7">
+    <div class="position-absolute star7 ">
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 5.png') }}" alt="">
     </div>
 
     <!-- asset : moon -->
     <div class="position-relative overflow-hiddens">
-    <div class="d-flex justify-content-end position-absolute" style="left: 5%; z-index: -2;">
+    <div class="d-flex justify-content-end position-absolute moon-cloud-container">
                 <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 6.png') }}" alt="" srcset="">
-                <div class="d-inline position-absolute" style="transform:scaleX(-1); bottom: 70px; left: 30px;">
-                    <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 15.png') }}" width="80%" alt="" srcset="">
-                </div> 
+                    <img class="cloud" src="{{ asset('../mainweb/img/maniacxii-asset/Asset 15.png') }}" alt="" srcset="">
             </div>
         </div>
 

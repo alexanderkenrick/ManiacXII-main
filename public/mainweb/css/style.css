@@ -254,6 +254,42 @@ a {
     transform: scale(1.05);
     background-color: #fcc8d1;
 }
+.moon-cloud-container {
+    left: 5%;
+    z-index: -2;
+}
+.cloud {
+    width: 300px;
+    height: 120px;
+    transform: scaleX(-1);
+    position: absolute;
+    animation-name: cloudAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    top: 55%;
+}
+
+/* animation */
+@keyframes cloudAnimation {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(3px, 0);
+    }
+    50% {
+        transform: translate(6px, 0);
+    }
+    75% {
+        transform: translate(3px, 0);
+        transform: scaleX(1);
+    }
+    100% {
+        transform: translateX(0px, 0);
+        transform: scaleX(1);
+    }
+}
 
 @media (max-width: 767px) {
     .footer-img {
@@ -271,6 +307,6 @@ a {
     }
 
     .myTitle {
-        font-size: 3em !important;
+        font-size: 2em !important;
     }
 }
