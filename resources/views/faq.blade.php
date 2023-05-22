@@ -322,7 +322,7 @@
                             <li>Penyisihan: <i>Rally games</i> dan Game Besar </li>
                             <li>Final: <i>Game Concept Design</i> dan <i>Game Asset Design</i></li>
                         </ul>
-                        Selengkapnya dapat dilihat <a href="https://maniac.ifubaya.id/competition">di sini</a>
+                        Selengkapnya dapat dilihat <a href="https://maniacubaya.com/competition">di sini</a>
                     </div>
                 </div>
             </div>
