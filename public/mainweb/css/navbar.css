@@ -66,4 +66,10 @@
     .navbar-nav .nav-item .dropdown-menu {
         text-align: center;
     }
+
+    .navbar-nav .nav-item .nav-link {
+        color: #f5f0e8 !important;
+        margin-left: 0px;
+    }
+    
 }
