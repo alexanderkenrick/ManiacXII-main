@@ -6,60 +6,12 @@
 
 @section('style')
     <link rel="stylesheet" href="{{ asset('/mainweb/css/about.css') }}">
-@endsection
+@endsection 
 
-<style>
-    .cloud1{
-        width: 500px;
-        position: absolute; 
-        top:65px; 
-        right: -160px;
-    }
-    .cloud2{
-        width: 500px;
-        position: absolute;
-        top:1000px; 
-        left: -200px;
-    }
-
-    @media (max-width:992px){
-        .cloud1{
-            width: 350px;
-            right: -50px;
-            top:100px;
-        }
-        .cloud2{
-            top: 900px;
-        }
-        .myTitle{
-            line-height: 90px !important;
-        }
-        body{
-            overflow: hidden;
-        }
-    }
-    @media (max-width:557px){
-        .cloud1{
-            width: 300px;
-            right: -50px;
-            top: 150px;
-        }
-        .cloud2{
-            top: 810px;
-            width: 300px;
-            left: -100px;
-        }
-    }
-</style>
 @section('content')
 <div class="background">
-<<<<<<< Updated upstream
-    <div class="container content mt-5">
-        <h2 class="d-flex justify-content-center my-5 fs-1 mb-4 myTitle">WHAT IS MANIAC ?</h2>
-=======
-<div class="container content">
+<div class="container content ">
         <h2 class="d-flex justify-content-center my-5 fs-1 mb-4 myTitle">WHAT IS MANIAC ?</h2> 
->>>>>>> Stashed changes
         <div class="carousel-cont text-center">
             <div class="carousel-slider">
                 <div id="carouselExampleIndicators" class="carousel slide carousel-card mt-4 mb-0" data-bs-ride="carousel">
@@ -138,11 +90,9 @@
                     </div>
                 </div>
             </div>
-            <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 17.png') }}" alt="cloud-png" style="" id="cloud1">
-            <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 15.png') }}" alt="cloud-png" style="" id="cloud2">
+            <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 17.png') }}" alt="cloud-png" id="cloud1">
+            <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 15.png') }}" alt="cloud-png" id="cloud2">
         </div>
-        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 17.png') }}" alt="cloud-png" class="cloud1">
-        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 15.png') }}" alt="cloud-png" class="cloud2">
         </div>
         <div class="container">
             <div class="d-flex justify-content-center fs-1 myTitle text-center">JOIN US NOW

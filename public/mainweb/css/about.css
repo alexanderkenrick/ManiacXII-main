@@ -1,4 +1,3 @@
-
 .background {
     background-image: url("../img/background/bg-about-us-fixed-3.png");
     background-position: top center;
@@ -44,25 +43,25 @@ iframe {
     border-radius: 0 0 30px 30px;
 }
 
-#cloud1{
+#cloud1 {
     width: 400px;
     position: absolute;
-    top:90px; 
+    top: 90px;
     right: -70px;
 }
 
-#cloud2{
+#cloud2 {
     width: 500px;
     position: absolute;
-    top:1000px;
+    top: 1000px;
     left: -200px;
 }
 
-@media (max-width:1200px){
-    #cloud2{
+@media (max-width: 1200px) {
+    #cloud2 {
         width: 500px;
         position: absolute;
-        top:800px;
+        top: 50%;
         left: -200px;
     }
 }
@@ -75,36 +74,36 @@ iframe {
     .carousel {
         width: 90%;
     }
-    #cloud1{
+    #cloud1 {
         width: 300px;
-        position: absolute; 
-        top:240px; 
+        position: absolute;
+        top: 55%;
         right: 0;
         transform: translateX(100px);
     }
-    #cloud2{
+    #cloud2 {
         width: 300px;
-        position: absolute; 
+        position: absolute;
         bottom: 640px !important;
-        top: auto; 
+        top: auto;
         left: 0;
         transform: translateX(-50%);
     }
 }
 
-@media (max-width:768px) {
-    #cloud1{
+@media (max-width: 768px) {
+    #cloud1 {
         width: 300px;
-        position: absolute; 
-        top:240px; 
+        position: absolute;
+        top: 240px;
         right: 0;
         transform: translateX(100px);
     }
-    #cloud2{
+    #cloud2 {
         width: 300px;
-        position: absolute; 
+        position: absolute;
         bottom: 770px !important;
-        top: auto; 
+        top: auto;
         left: 0;
         transform: translateX(-50%);
     }
@@ -119,21 +118,21 @@ iframe {
         width: 95%;
     }
 
-    .container{
+    .container {
         overflow-x: hidden;
     }
-    #cloud1{
+    #cloud1 {
         width: 250px;
-        position: absolute; 
-        top:180px; 
+        position: absolute;
+        top: 25%;
         right: 0;
         transform: translateX(100px);
     }
-    #cloud2{
+    #cloud2 {
         width: 250px;
-        position: absolute; 
+        position: absolute;
         bottom: 640px !important;
-        top: auto; 
+        top: 90%;
         left: 0;
         transform: translateX(-50%);
     }
