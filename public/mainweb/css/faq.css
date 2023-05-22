@@ -6,6 +6,7 @@
     border: 0px;
     color: #0c2548;
     font-size: 21px;
+    font-weight: 425;
 }
 .color-inside-faq{
     background-color: #fef2f4;
@@ -40,4 +41,13 @@ iframe{
 }
 .accordion-button:focus{
     box-shadow: inherit;
+}
+.background {
+    background-image: url("../img/background/bg_faq.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-bottom: 86px;
 }

@@ -9,6 +9,7 @@
 @endsection
 
 @section('content')
+<div class="background">
     <h2 class="d-flex justify-content-center fs-1 mb-4 myTitle text-align-center padding-title" style="margin-top:86px">FREQUENTLY ASKED
         QUESTIONS</h2>
     <div class="container mt-5" style="padding-bottom: 60px">
@@ -46,9 +47,7 @@
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body color-inside-faq faq-radialGradient-inside">
-                        <ul>
-                            <li> Seluruh rangkaian acara MANIAC XII akan diadakah secara offline di Universitas Surabaya.</li>
-                        </ul>
+                        Seluruh rangkaian acara MANIAC XII akan diadakah secara offline di Universitas Surabaya.
                     </div>
                 </div>
             </div>
@@ -64,12 +63,10 @@
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body color-inside-faq faq-radialGradient-inside">
-                        <ul>
-                            <li><i>Workshop & Technical Meeting</i> Babak Penyisihan</li>
-                            <li>Babak Penyisihan & <i> Technical Meeting </i> Babak Final</li>
-                            <li>Pengerjaan dan <i>Submission</i> Final</li>
-                            <li>Babak Final</li>
-                        </ul>
+                        <i>Workshop & Technical Meeting</i> Babak Penyisihan <br>
+                        Babak Penyisihan & <i> Technical Meeting </i> Babak Final <br>
+                        Pengerjaan dan <i>Submission</i> Final <br>
+                        Babak Final 
                     </div>
                 </div>
             </div>
@@ -168,12 +165,10 @@
                 <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body color-inside-faq faq-radialGradient-inside">
-                        <ul>
-                            <li><i>Workshop & Technical Meeting</i> Babak Penyisihan (7 Agustus 2023)</li>
-                            <li>Babak Penyisihan & <i> Technical Meeting </i> Babak Final (9 Agustus 2023)</li>
-                            <li>Pengerjaan dan <i>Submission</i> Final (10-11 Agustus 2023)</li>
-                            <li>Babak Final (12 Agustus 2023)</li>
-                        </ul>
+                        <i>Workshop & Technical Meeting</i> Babak Penyisihan (7 Agustus 2023) <br>
+                        Babak Penyisihan & <i> Technical Meeting </i> Babak Final (9 Agustus 2023) <br>
+                        Pengerjaan dan <i>Submission</i> Final (10-11 Agustus 2023)<br>
+                        Babak Final (12 Agustus 2023)
                     </div>
                 </div>
             </div>
@@ -205,11 +200,9 @@
                 <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body color-inside-faq faq-radialGradient-inside">
-                        <ul>
-                            <li>Pendaftaran untuk mengikuti lomba tidak dikenakan biaya (GRATIS)</li>
-                            <li>Pendaftaran workshop untuk peserta tidak dikenakan biaya (GRATIS)</li>
-                            <li>Pendaftaran workshop untuk umum dikenakan biaya sebesar Rp. 25.000</li>
-                        </ul>
+                        Pendaftaran untuk mengikuti lomba tidak dikenakan biaya (GRATIS)<br>
+                        Pendaftaran workshop untuk peserta tidak dikenakan biaya (GRATIS)<br>
+                        Pendaftaran workshop untuk umum dikenakan biaya sebesar Rp. 25.000
                     </div>
                 </div>
             </div>
@@ -257,13 +250,11 @@
                 <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body color-inside-faq faq-radialGradient-inside">
-                        <ul>
-                            <li>Website: maniacubaya.com</li>
-                            <li>IG: maniac_ubaya</li>
-                            <li>OA Line: @994nxsfr</li>
-                            <li>Email: maniac.ubayaa@gmail.com</li>
-                            <li>Richard N W (081260644333), Paulin (085730781045)</li>
-                        </ul>
+                        Website: maniacubaya.com <br>
+                        IG: maniac_ubaya<br>
+                        OA Line: @994nxsfr<br>
+                        Email: maniac.ubayaa@gmail.com<br>
+                        Richard N W (081260644333), Paulin (085730781045)
                     </div>
                 </div>
             </div>
