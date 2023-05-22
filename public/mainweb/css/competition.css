@@ -33,11 +33,16 @@
 }
 
 .background {
-    background-image: url("../img/background/bg_competition.png");
+    background-image: url("../img/background/bg_competition_fix1.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: auto;
     padding-bottom: 86px;
+}
+
+.myTitle{
+    margin-top: 0 !important;
+    padding-top: 3rem;
 }

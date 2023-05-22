@@ -10,8 +10,8 @@
 
 @section('content')
 <div class="background">
-    <div class="container mt-5" style="padding-bottom: 86px">
-        <h2 class="d-flex justify-content-center my-5 fs-1 mb-4 myTitle">COMPETITIONS</h2>
+    <div class="container" style="padding-bottom: 86px">
+        <h2 class="d-flex justify-content-center fs-1 mb-4 myTitle">COMPETITIONS</h2>
         <div class="d-flex flex-column">
             <div class="compe-container text-center">
                 <h5 class="card-title mb-0 fs-4">RALLY GAMES</h5>
