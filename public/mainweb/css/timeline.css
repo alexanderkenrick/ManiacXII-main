@@ -54,8 +54,7 @@
   margin-left: 6em;
 }
 .timeline-info span {
-
-  color:#A0583A;
+  color:#fff;
 }
 .timeline-info p{
   font-size: 13px;
@@ -65,7 +64,7 @@
 }
 
 .timeline-info small {
-  color: #A0583A;
+  color: #d14d72;
   font-size: 20px;
   font-weight: bold;
   display: inline-block;

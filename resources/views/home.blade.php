@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="row row-content timeline-small mb-5">
-                <div class="col-lg-12 col-md-12 col-sm-12 d-flex">
+                <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center">
                     <div class="row">
                         <div class="timeline col-lg-12 col-md-12 col-sm-12">
                             <div class="timeline-wrapper">
@@ -73,7 +73,7 @@
                                 </div>
                                 <div style="display: flex; flex-direction:column;">
                                     <div class="timeline-info">                         
-                                        <br><small>7 Agustus 2023</small>
+                                        <small>7 Agustus 2023</small>
                                         <h4><span>Workshop</span></h4>
                                     </div>
                                 </div>
@@ -84,7 +84,7 @@
                                 </div>
                                 <div style="display: flex; flex-direction:column;">
                                     <div class="timeline-info">
-                                        <br><small>9 Agustus 2023</small>
+                                        <small>9 Agustus 2023</small>
                                         <h4><span>Penyisihan</span></h4>
                                     </div>                  
                                 </div>
@@ -95,7 +95,7 @@
                                 </div>
                                 <div style="display: flex; flex-direction:column;">
                                     <div class="timeline-info">
-                                        <Br><small>12 September 2023</small>
+                                        <small>12 September 2023</small>
                                         <h4><span>Final</span></h4>
                                     </div>
                                 </div>

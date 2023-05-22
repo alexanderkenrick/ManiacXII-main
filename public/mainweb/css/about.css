@@ -1,5 +1,6 @@
 .background {
-    background-image: url("../img/background/bg-about-us-fixed.png");
+    background-image: url("../img/background/bg-about-us-fixed-3.png");
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -7,7 +8,6 @@
     padding-bottom: 86px;
 }
 .content {
-    margin-top: 8rem;
     position: relative;
 }
 .video {
@@ -22,7 +22,7 @@ iframe {
 .carousel-cont {
     box-sizing: border-box;
     margin: auto;
-    margin-bottom: 15rem;
+    margin-bottom: 5rem;
     color: #19376d;
 }
 
@@ -43,6 +43,8 @@ iframe {
     border-radius: 0 0 30px 30px;
 }
 
+
+
 @media (max-width: 992px) {
     .maskot {
         display: none;
@@ -53,12 +55,19 @@ iframe {
     }
 }
 
-@media (max-width: 577px) {
+@media (max-width: 576px) {
     .carousel-cont {
         width: 100%;
     }
 
     .carousel {
         width: 95%;
+    }
+    #cloud1{
+        width: 250px;
+        position: absolute; 
+        top:150px; 
+        right: 0;
+        transform: translateX(100px);
     }
 }

@@ -10,7 +10,7 @@
 
 @section('content')
 <div class="background">
-    <div class="container content">
+    <div class="container content mt-5">
         <h2 class="d-flex justify-content-center my-5 fs-1 mb-4 myTitle">WHAT IS MANIAC ?</h2>
         <div class="carousel-cont text-center">
             <div class="carousel-slider">
@@ -92,7 +92,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="d-flex justify-content-center my-5 fs-1 myTitle text-center">JOIN US NOW
+            <div class="d-flex justify-content-center fs-1 myTitle text-center">JOIN US NOW
             </div>
             <div class="d-flex justify-content-center">
                 <div class="video">
@@ -103,8 +103,8 @@
                 </div>
             </div>
         </div>
-        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 17.png') }}" alt="cloud-png" style="width: 400px;position: absolute; top:90px; right: -70px;">
-        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 15.png') }}" alt="cloud-png" style="width: 500px;position: absolute; top:1000px; left: -200px;">
+        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 17.png') }}" alt="cloud-png" style="" id="cloud1">
+        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 15.png') }}" alt="cloud-png" style="width: 500px;position: absolute; top:1000px; left: -200px;" id="cloud2">
     </div>
 </div>
     
