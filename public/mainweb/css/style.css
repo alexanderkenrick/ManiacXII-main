@@ -132,8 +132,8 @@ a {
 }
 
 .myBtn:hover {
-    background-color: #a36948;
-    color: #eceeca;
+    background-color: #a5d7e8;
+    color: #19376d;
 }
 
 .myBtn.dark {
@@ -168,7 +168,7 @@ a {
 }
 
 .myChkbox:checked ~ .checkmark {
-    background-color: #a36948;
+    background-color: #ffabab;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -198,22 +198,22 @@ a {
 
 .chkText {
     display: inline-block;
-    color: #a36948;
+    color: #f6f1e9;
     margin-bottom: 10px;
     background-color: transparent;
 }
 
 .have-account {
-    color: rgba(255, 217, 61);
+    color: #ffabab;
     font-weight: 600;
 }
 
 .have-account a {
-    color: rgba(255, 217, 61);
+    color: #fef2f4;
 }
 
 .have-account a:hover {
-    color: #a36948;
+    color: #fef2f4;
 }
 
 .myLabel {
@@ -224,7 +224,7 @@ a {
 .myInputFile {
     height: 40px;
     display: block;
-    border: 2px solid #a0583a;
+    border: 2px solid #ffabab;
     border-radius: 10px;
     padding: 6px 10px;
 }
@@ -239,8 +239,8 @@ a {
 }
 
 .myInputFile::-webkit-file-upload-button {
-    background-color: #a0583a;
-    color: #eceeca;
+    background-color: #d14d72;
+    color: #fef2f4;
     border-radius: 50px;
     border: none;
     cursor: pointer;
@@ -251,7 +251,8 @@ a {
 }
 
 .myInputFile::-webkit-file-upload-button:hover {
-    background-color: #7f462e;
+    transform: scale(1.05);
+    background-color: #fcc8d1;
 }
 
 @media (max-width: 767px) {
