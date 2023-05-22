@@ -140,7 +140,7 @@
                         </span>
                     </div>
                     <div class="d-flex justify-content-center fs-3" style="color: #19376d"><b>Juara 2</b></div>
-                    <div class="d-flex justify-content-center fw-bolder fs-3 neon">Rp 3.000.000</div>
+                    <div class="d-flex justify-content-center fw-bolder fs-3 neon">Rp 3.500.000</div>
                     <div class="text-center fs-5" style="color: #19376d">
                         Potongan USP sebesar 50%*
                     </div>
@@ -153,7 +153,7 @@
                         </span>
                     </div>
                     <div class="d-flex justify-content-center fs-3" style="color: #19376d"><b>Juara 3</b></div>
-                    <div class="d-flex justify-content-center fw-bolder fs-3 neon">Rp 1.000.000</div>
+                    <div class="d-flex justify-content-center fw-bolder fs-3 neon">Rp 1.500.000</div>
                     <div class="text-center fs-5" style="color: #19376d">
                         Potongan USP sebesar 25%*
                     </div>
@@ -162,7 +162,7 @@
                 {{-- keterangan tambahan --}}
                 <div>
                     <div>
-                    <p class="my-3 fs-6">
+                    <p class="my-3 fs-6" style="color: #4f200d">
                         *) Setiap pemenang akan mendapatkan <strong>Piala + Sertifikat</strong>
                     </p>
                 </div>
@@ -174,7 +174,7 @@
                 </div>
     
                 <div>
-                    <p class="mb-5 fs-6">
+                    <p class="mb-5 fs-6" style="color: #4f200d">
                         <strong>1 Tim terdiri atas 3 orang dari SMA/SMK yang sama</strong>
                     </p>
                 </div>
