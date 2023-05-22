@@ -16,7 +16,7 @@
             <div class="row justify-content-center">
                 <div class="about-text">
                     <div class="col-lg-10 mx-auto" id="header-text "style="text-align: center;">
-                        <img src="{{ asset('../mainweb/img/logo/logo-header.png') }}" alt="" width="80%">
+                        <img src="{{ asset('../mainweb/img/logo/logo-header.png') }}" alt="" width="80%" class="logo-header">
                     </div>
                 </div>
                 <div class="row justify-content-center mt-5">
