@@ -208,7 +208,7 @@
 
                         <button class="btn myBtn width-90 mt-5" type="submit">Register</button>
                         <div class="row justify-content-center">
-                            <p class="text-center have-account">Already have an account? <a href="{{ url('/login') }}">Login</a></p>
+                            <p class="text-center have-account">Already have an account? <a href="{{ url('/login') }}" style="text-decoration: underline">Login</a></p>
                         </div>
                     </form>
                 </div>

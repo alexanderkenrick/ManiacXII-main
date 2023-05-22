@@ -93,6 +93,21 @@ iframe {
     text-align: center;
 }
 
+#juara1{
+    animation: juara1Breathing 3s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#juara2{
+    animation: juara2Breathing 3s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#juara3{
+    animation: juara3Breathing 3s infinite;
+    animation-timing-function: ease-in-out;
+}
+
 .container{
     position: relative;
 }
@@ -268,4 +283,50 @@ iframe {
         filter: drop-shadow(0 0 0px #fff503);
     }
 }
+
+@keyframes juara1Breathing {
+    0%{
+        transform: translate(0,0px);
+        filter: drop-shadow(0 0 10px #fee06e) drop-shadow(0px 0px 15px #fee06e)
+    }
+    50%{
+        transform: translate(0px,7px);
+        filter: drop-shadow(0 0 0px #fee06e);
+    }
+    100%{
+        transform: translateY(0,-0px);
+        filter: drop-shadow(0 0 10px #fee06e) drop-shadow(0px 0px 15px #fee06e);
+    }
+}
+
+@keyframes juara2Breathing {
+    0%{
+        transform: translate(0,0px);
+        filter: drop-shadow(0 0 10px #afebf7) drop-shadow(0px 0px 15px #afebf7)
+    }
+    50%{
+        transform: translate(0px,7px);
+        filter: drop-shadow(0 0 0px #afebf7);
+    }
+    100%{
+        transform: translateY(0,-0px);
+        filter: drop-shadow(0 0 10px #afebf7) drop-shadow(0px 0px 15px #afebf7);
+    }
+}
+
+@keyframes juara3Breathing {
+    0%{
+        transform: translate(0,0px);
+        filter: drop-shadow(0 0 2px #be8313) drop-shadow(0px 0px 1px #be8313)
+    }
+    50%{
+        transform: translate(0px,7px);
+        filter: drop-shadow(0 0 0px #be8313);
+    }
+    100%{
+        transform: translateY(0,-0px);
+        filter: drop-shadow(0 0 2px #be8313) drop-shadow(0px 0px 1px #be8313);
+    }
+}
+
 

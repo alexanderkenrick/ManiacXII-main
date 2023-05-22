@@ -125,7 +125,7 @@
                     </form>
                     <div class="row justify-content-center">
                         <p class="text-center have-account">Don't have an account yet? <a
-                                href="{{ url('/register') }}">Register</a></p>
+                                href="{{ url('/register') }}" style="text-decoration: underline">Register</a></p>
                     </div>
                 </div>
             </div>
