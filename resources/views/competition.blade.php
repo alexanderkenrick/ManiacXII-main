@@ -9,6 +9,7 @@
 @endsection
 
 @section('content')
+<div class="background">
     <div class="container mt-5" style="padding-bottom: 86px">
         <h2 class="d-flex justify-content-center my-5 fs-1 mb-4 myTitle">COMPETITIONS</h2>
         <div class="d-flex flex-column">
@@ -37,4 +38,5 @@
             <a href="{{ asset('../mainweb/guidebook/guidebook_updated.pdf') }}" target="_blank" class="btn btn-download fs-4 rounded-pill"><strong>DOWNLOAD</strong></a>
         </div> --}}
     </div>
+</div>
 @endsection
