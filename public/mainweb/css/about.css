@@ -44,10 +44,10 @@ iframe {
 }
 
 #cloud1 {
-    width: 400px;
+    width: 500px;
     position: absolute;
-    top: 90px;
-    right: -70px;
+    top: 100px;
+    right: -160px;
 }
 
 #cloud2 {
@@ -77,7 +77,7 @@ iframe {
     #cloud1 {
         width: 300px;
         position: absolute;
-        top: 55%;
+        top: 30%;
         right: 0;
         transform: translateX(100px);
     }
@@ -85,7 +85,7 @@ iframe {
         width: 300px;
         position: absolute;
         bottom: 640px !important;
-        top: auto;
+        top: 90%;
         left: 0;
         transform: translateX(-50%);
     }
@@ -93,17 +93,16 @@ iframe {
 
 @media (max-width: 768px) {
     #cloud1 {
-        width: 300px;
+        width: 350px;
         position: absolute;
-        top: 240px;
+        top: 25%;
         right: 0;
         transform: translateX(100px);
     }
     #cloud2 {
         width: 300px;
         position: absolute;
-        bottom: 770px !important;
-        top: auto;
+        top: 93%;
         left: 0;
         transform: translateX(-50%);
     }
@@ -122,18 +121,32 @@ iframe {
         overflow-x: hidden;
     }
     #cloud1 {
-        width: 250px;
+        width: 300px;
         position: absolute;
-        top: 25%;
+        top: 30%;
         right: 0;
-        transform: translateX(100px);
+        transform: translateX(50px);
     }
     #cloud2 {
-        width: 250px;
+        width: 300px;
         position: absolute;
         bottom: 640px !important;
-        top: 90%;
+        top: 88%;
         left: 0;
-        transform: translateX(-50%);
+        transform: translateX(-30%);
+    }
+    @media (max-width: 390px) {
+        #cloud1 {
+            top: 25%;
+            width: 250px;
+            right: 0;
+            transform: translateX(30px);
+        }
+        #cloud2 {
+            width: 250px;
+            top: 88%;
+            left: 0;
+            transform: translateX(-80px);
+        }
     }
 }

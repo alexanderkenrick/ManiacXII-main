@@ -13,7 +13,7 @@ body {
     color: #fff;
 }
 
-.wrapper{
+.wrapper {
     padding-bottom: 200px;
 }
 
@@ -59,13 +59,13 @@ a {
 }
 
 @media (min-width: 993px) {
-    .footer-brand{
+    .footer-brand {
         padding-left: 80px;
     }
-    .footer-nav{
+    .footer-nav {
         padding-left: 100px;
     }
-    .footer-social{
+    .footer-social {
         padding-left: 60px;
     }
 }
@@ -83,7 +83,7 @@ a {
     color: #f9ad16;
     text-align: center;
     margin-bottom: 72px !important;
-    margin-top: 86px
+    margin-top: 86px;
 }
 
 .width-100 {
@@ -103,7 +103,7 @@ a {
     margin-bottom: 10px;
     background-color: rgba(246, 241, 233, 0.8);
     /* border: 2px solid #a0583a; */
-    color: #4f200d;
+    color: #d14d72;
     height: 40px;
     border-radius: 10px;
     padding: 0 10px;
@@ -111,7 +111,7 @@ a {
 }
 
 .myTextbox::placeholder {
-    color: #a68070;
+    color: #d14d72;
     font-weight: normal;
 }
 
@@ -133,6 +133,7 @@ a {
 .myBtn:hover {
     background-color: #a5d7e8;
     color: #19376d;
+    transform: scale(1.05);
 }
 
 .myBtn.dark {
@@ -162,7 +163,7 @@ a {
     height: 20px;
     top: 2px;
     left: 8px;
-    border: 2px solid #bc905b;
+    border: 2px solid #f6f1e9;
     border-radius: 2px;
 }
 
@@ -208,7 +209,7 @@ a {
 }
 
 .have-account a {
-    color: #fef2f4;
+    color: #ffabab;
 }
 
 .have-account a:hover {

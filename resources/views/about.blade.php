@@ -10,7 +10,7 @@
 
 @section('content')
 <div class="background">
-<div class="container content ">
+<div class="container content">
         <h2 class="d-flex justify-content-center my-5 fs-1 mb-4 myTitle">WHAT IS MANIAC ?</h2> 
         <div class="carousel-cont text-center">
             <div class="carousel-slider">
