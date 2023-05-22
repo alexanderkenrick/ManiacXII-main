@@ -40,7 +40,7 @@
                     <button class="accordion-button collapsed color-title-faq faq-radialGradient-title" type="button"
                         data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                         aria-controls="collapseTwo">
-                        <p style="margin-bottom: 0;">Apakah Maniac XII akan diadakan secara&nbsp <i>offline</i> atau
+                        <p style="margin-bottom: 0;">Apakah Maniac XII akan diadakan secara &nbsp; <i>offline</i> atau
                             <i>online</i>?</p>
                     </button>
                 </h2>
