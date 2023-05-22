@@ -90,6 +90,8 @@
                     </div>
                 </div>
             </div>
+            <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 17.png') }}" alt="cloud-png" style="" id="cloud1">
+            <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 15.png') }}" alt="cloud-png" style="" id="cloud2">
         </div>
         <div class="container">
             <div class="d-flex justify-content-center fs-1 myTitle text-center">JOIN US NOW
@@ -103,8 +105,7 @@
                 </div>
             </div>
         </div>
-        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 17.png') }}" alt="cloud-png" style="" id="cloud1">
-        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 15.png') }}" alt="cloud-png" style="width: 500px;position: absolute; top:1000px; left: -200px;" id="cloud2">
+        
     </div>
 </div>
     
