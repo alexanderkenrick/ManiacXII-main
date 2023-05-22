@@ -4,8 +4,14 @@
     Register
 @endsection
 
+@section('style')
+    <link rel="stylesheet" href="{{ asset('/mainweb/css/regist.css') }}">
+@endsection
+
 @section('content')
+<div class="background">
     <section id="register" style="margin: 80px 0 100px;">
+    <div></div>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-8 col-sm-10 col-xs-11">
@@ -278,6 +284,7 @@
             </div>
         </div>
     </section>
+</div>
 @endsection
 
 @section('script')
