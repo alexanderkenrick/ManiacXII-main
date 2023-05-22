@@ -141,7 +141,7 @@
                     <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body color-inside-faq faq-radialGradient-inside">
-                            Untuk pengerjaan final, software yang digunakan adalah bebas
+                            Untuk pengerjaan final, software yang digunakan adalah bebas.
                         </div>
                     </div>
                 </div>
@@ -232,7 +232,7 @@
                     <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body color-inside-faq faq-radialGradient-inside">
-                            Tidak ada
+                            Tidak ada.
                         </div>
                     </div>
                 </div>
@@ -248,7 +248,7 @@
                     <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body color-inside-faq faq-radialGradient-inside">
-                            3 orang dari sekolah yang sama
+                            3 orang dari sekolah yang sama.
                         </div>
                     </div>
                 </div>
@@ -286,7 +286,7 @@
                     <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading15"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body color-inside-faq faq-radialGradient-inside">
-                            Semua informasi mengenai lomba akan diinfokan melalui Instagram Maniac XII
+                            Semua informasi mengenai lomba akan diinfokan melalui Instagram Maniac XII.
                         </div>
                     </div>
                 </div>
@@ -318,7 +318,7 @@
                     <div id="collapse17" class="accordion-collapse collapse" aria-labelledby="heading17"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body color-inside-faq faq-radialGradient-inside">
-                            22 Mei - 29 Juli 2023
+                            22 Mei - 29 Juli 2023.
                         </div>
                     </div>
                 </div>
@@ -393,7 +393,7 @@
                         <div class="accordion-body color-inside-faq faq-radialGradient-inside">
                             Diperbolehkan, namun ada batasan waktu, yaitu 2 minggu sebelum diadakannya <i>Technical
                                 Meeting</i>
-                            Babak Penyisihan
+                            Babak Penyisihan.
                         </div>
                     </div>
                 </div>
