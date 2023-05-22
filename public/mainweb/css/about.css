@@ -49,6 +49,7 @@ iframe {
     position: absolute;
     top: 100px;
     right: -160px;
+    animation: moveAround 4s ease-in-out 1s infinite;
 }
 
 #cloud2 {
@@ -56,18 +57,43 @@ iframe {
     position: absolute;
     top: 1000px;
     left: -200px;
+    animation: leftAndRight 3s ease-in 2s infinite;
 }
-
-@media (max-width: 1200px) {
+/* animation */
+@keyframes moveAround {
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(8px, 0);
+    }
+    50% {
+        transform: translate(8px, 4px);
+    }
+    75% {
+        transform: translate(0, 5px);
+    }
+}
+@keyframes leftAndRight {
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(8px);
+    }
+}
+@media screen and (max-width: 1200px) {
     #cloud2 {
         width: 500px;
         position: absolute;
-        top: 50%;
+        top: 800px;
         left: -200px;
     }
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
     .maskot {
         display: none;
     }
@@ -76,40 +102,35 @@ iframe {
         width: 90%;
     }
     #cloud1 {
-        width: 300px;
+        width: 400px;
         position: absolute;
-        top: 30%;
-        right: 0;
-        transform: translateX(100px);
+        top: 250px;
+        right: -120px;
     }
     #cloud2 {
-        width: 300px;
+        width: 400px;
         position: absolute;
-        bottom: 640px !important;
-        top: 90%;
-        left: 0;
-        transform: translateX(-50%);
+        top: 900px;
+        transform: translateX(-100px);
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #cloud1 {
         width: 350px;
-        position: absolute;
-        top: 25%;
-        right: 0;
+        top: 250px;
+        right: -50px;
         transform: translateX(100px);
     }
     #cloud2 {
-        width: 300px;
-        position: absolute;
-        top: 93%;
-        left: 0;
+        width: 350px;
+        top: 850px;
+        left: -90px;
         transform: translateX(-50%);
     }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .carousel-cont {
         width: 100%;
     }
@@ -124,29 +145,25 @@ iframe {
     #cloud1 {
         width: 300px;
         position: absolute;
-        top: 30%;
-        right: 0;
-        transform: translateX(50px);
+        top: 140px;
+        right: -50px;
     }
     #cloud2 {
         width: 300px;
         position: absolute;
-        bottom: 640px !important;
-        top: 88%;
-        left: 0;
-        transform: translateX(-30%);
+        top: 900px;
+        left: -100px;
     }
-    @media (max-width: 390px) {
+    @media screen and (max-width: 500px) {
         #cloud1 {
-            top: 25%;
-            width: 250px;
-            right: 0;
-            transform: translateX(30px);
+            top: 120px;
+            width: 320px;
+            right: -70px;
         }
         #cloud2 {
             width: 250px;
-            top: 88%;
-            left: 0;
+            left: -70px;
+            top: 710px;
             transform: translateX(-80px);
         }
     }
