@@ -189,7 +189,9 @@
                         <button class="accordion-button collapsed color-title-faq faq-radialGradient-title" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false"
                             aria-controls="collapse10">
-                            <p>Apakah&nbsp;<i>workshop</i>&nbsp;diwajibkan bagi semua peserta lomba Maniac XII?</p>
+                            <p style="margin-bottom:0;">
+                                Apakah <i> workshop </i>diwajibkan bagi semua peserta lomba Maniac XII?
+                            </p>
                         </button>
                     </h2>
                     <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10"
