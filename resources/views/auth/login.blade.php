@@ -11,6 +11,7 @@
         top: 15%;
         left: 8%;
         z-index: -2;
+        
     }
     .star2{
         right: 15%; 
@@ -42,25 +43,60 @@
         top: 120%; 
         z-index: -2;
     }
+    .shine1{
+        animation-name: shining;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    .shine2{
+        animation-name: shining;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    .moving{
+        animation-name: movingStar;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes shining {
+    0%,
+    100% {
+        filter: drop-shadow(0 0 5px #ffd93d);
+    }
+    50% {
+        filter: drop-shadow(0 0 10px #ffd93d);
+    }
+}
+    @keyframes movingStar {
+        0%,100%{
+            transform: translate(0,0);
+        }
+        50%{
+            transform: translate(-2px,0);
+        }
+
+    }
 </style>
     <section id="login" style="margin: 25px 0; overflow: hidden;">
 <!-- asset-star -->
-    <div class="position-absolute star1 ">
+    <div class="position-absolute star1 shine1 moving">
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 5.png') }}" alt="">
     </div>  
-    <div class="position-absolute star2 ">
+    <div class="position-absolute star2 shine2">
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 5.png') }}" alt="">
     </div>
-    <div class="position-absolute star3 ">  
+    <div class="position-absolute star3 shine2">  
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 5.png') }}" alt="">
     </div>
-    <div class="position-absolute star4 ">
+    <div class="position-absolute star4 shine1">
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 5.png') }}" alt=""> 
     </div>
-    <div class="position-absolute star5 ">
+    <div class="position-absolute star5 shine2">
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 5.png') }}" alt="">
     </div>
-    <div class="position-absolute star6 ">
+    <div class="position-absolute star6 shine1">
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 5.png') }}" alt="">
     </div>
     <div class="position-absolute star7 ">

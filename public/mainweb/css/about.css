@@ -59,6 +59,7 @@ iframe {
     left: -200px;
     animation: leftAndRight 3s ease-in 2s infinite;
 }
+
 /* animation */
 @keyframes moveAround {
     0%,
@@ -84,11 +85,13 @@ iframe {
         transform: translate(8px);
     }
 }
+
+/* Responsiveness  */
 @media screen and (max-width: 1200px) {
     #cloud2 {
         width: 500px;
         position: absolute;
-        top: 800px;
+        top: 900px;
         left: -200px;
     }
 }
@@ -124,7 +127,7 @@ iframe {
     }
     #cloud2 {
         width: 350px;
-        top: 850px;
+        top: 900px;
         left: -90px;
         transform: translateX(-50%);
     }
@@ -145,7 +148,7 @@ iframe {
     #cloud1 {
         width: 300px;
         position: absolute;
-        top: 140px;
+        top: 300px;
         right: -50px;
     }
     #cloud2 {
@@ -156,14 +159,14 @@ iframe {
     }
     @media screen and (max-width: 500px) {
         #cloud1 {
-            top: 120px;
+            top: 130px;
             width: 320px;
             right: -70px;
         }
         #cloud2 {
             width: 250px;
             left: -70px;
-            top: 710px;
+            top: 740px;
             transform: translateX(-80px);
         }
     }
