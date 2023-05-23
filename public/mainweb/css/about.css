@@ -113,7 +113,7 @@ iframe {
     #cloud2 {
         width: 400px;
         position: absolute;
-        top: 900px;
+        top: 90%;
         transform: translateX(-100px);
     }
 }
@@ -166,7 +166,7 @@ iframe {
         #cloud2 {
             width: 250px;
             left: -70px;
-            top: 740px;
+            top: 86%;
             transform: translateX(-80px);
         }
     }
