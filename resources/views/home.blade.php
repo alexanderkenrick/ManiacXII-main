@@ -73,6 +73,17 @@
                                 </div>
                                 <div style="display: flex; flex-direction:column;">
                                     <div class="timeline-info">                         
+                                        <small>22 Mei - 29 Juli 2023</small>
+                                        <h4><span>Open Registration</span></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline-wrapper">
+                                <div class="timeline-yr">
+                                    <span></span>
+                                </div>
+                                <div style="display: flex; flex-direction:column;">
+                                    <div class="timeline-info">                         
                                         <small>7 Agustus 2023</small>
                                         <h4><span>Workshop</span></h4>
                                     </div>
