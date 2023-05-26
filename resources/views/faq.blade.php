@@ -198,7 +198,7 @@
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body color-inside-faq faq-radialGradient-inside">
                             Ya, diwajibkan agar peserta memiliki pembekalan yang cukup untuk pengerjaan final serta setelah
-                            <i>workshop</i> akan diadakan technical meeting untuk babak penyisihan. Selain itu
+                            <i>workshop</i> akan diadakan <i>technical meetingx</i> untuk babak penyisihan. Selain itu
                             <i>Workshop</i> juga akan
                             terbuka untuk umum secara berbayar.
                         </div>
