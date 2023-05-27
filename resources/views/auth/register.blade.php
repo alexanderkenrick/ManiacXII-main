@@ -120,8 +120,7 @@
                             <label class="myLabel">Kartu Pelajar (Max 1 MB)</label>
                             <input type="file" accept="application/pdf,image/*" name="image"
                                 id="KartuPelajarKetua formFileMultiple"
-                                class="myInputFile width-90 @error('image') is-invalid @enderror"
-                                style="color:#ffabab;" required>
+                                class="myInputFile width-90 @error('image') is-invalid @enderror" required>
                             @error('image')
                                 <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -159,7 +158,7 @@
                             <label class="myLabel">Kartu Pelajar (Max 1 MB)</label>
                             <input type="file" accept="application/pdf,image/*" name="image1"
                                 id="KartuPelajarAnggota1 formFileMultiple"
-                                class="myInputFile width-90 @error('image1') is-invalid @enderror" style="color:#ffabab;" required>
+                                class="myInputFile width-90 @error('image1') is-invalid @enderror" required>
                                 @error('image1')
                                  <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -197,7 +196,7 @@
                             <label class="myLabel">Kartu Pelajar (Max 1 MB)</label>
                             <input type="file" accept="application/pdf,image/*" name="image2"
                                 id="KartuPelajarAnggota2 formFileMultiple"
-                                class="myInputFile width-90 @error('image2') is-invalid @enderror" style="color:#ffabab;" required>
+                                class="myInputFile width-90 @error('image2') is-invalid @enderror" required>
                                 @error('image2')
                                  <div class="invalid-feedback text-center">
                                     {{ $message }}

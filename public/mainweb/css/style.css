@@ -101,9 +101,9 @@ a {
 .myTextbox {
     display: block;
     margin-bottom: 10px;
-    background-color: rgba(246, 241, 233, 0.8);
-    /* border: 2px solid #a0583a; */
-    color: #d14d72;
+    background-color: #19376d ;
+    border: 2px solid #a5d7e8 ;
+    color: #fff;
     height: 40px;
     border-radius: 10px;
     padding: 0 10px;
@@ -111,7 +111,7 @@ a {
 }
 
 .myTextbox::placeholder {
-    color: #d14d72;
+    color: #a0a0a0 !important;
     font-weight: normal;
 }
 
@@ -224,9 +224,10 @@ a {
 .myInputFile {
     height: 40px;
     display: block;
-    border: 2px solid #ffabab;
+    border: 2px solid #a5d7e8 ;
     border-radius: 10px;
     padding: 6px 10px;
+    color: #fff;
 }
 
 .text404 h1 {
@@ -239,8 +240,8 @@ a {
 }
 
 .myInputFile::-webkit-file-upload-button {
-    background-color: #d14d72;
-    color: #fef2f4;
+    background-color: #a5d7e8 ;
+    color: #19376d ;
     border-radius: 50px;
     border: none;
     cursor: pointer;
