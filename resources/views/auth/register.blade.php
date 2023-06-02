@@ -63,6 +63,7 @@
                                     {{ $message }}
                                 </div>
                             @enderror
+                            <p style="margin-left: 5%; margin-top: 0;">Contoh: 031123456 </p>
                             <label class="myLabel">Username</label>
                             <input type="text" name="username" id="txtUsername"
                                 class="myTextbox width-90  @error('username') is-invalid @enderror" placeholder="Username"
@@ -108,6 +109,7 @@
                                     {{ $message }}
                                 </div>
                             @enderror
+                            <p style="margin-left: 5%; margin-top: 0;">Contoh: 081234567890 </p>
                             <label class="myLabel">Email</label>
                             <input type="email" name="email" id="txtEmailKetua"
                                 class="myTextbox width-90 @error('email') is-invalid @enderror" placeholder="Email"
@@ -147,6 +149,7 @@
                                     {{ $message }}
                                 </div>
                                 @enderror
+                                <p style="margin-left: 5%; margin-top: 0;">Contoh: 081234567890 </p>
                             <label class="myLabel">Email</label>
                             <input type="email" name="email1" id="txtEmailAnggota1" class="myTextbox width-90"
                                 placeholder="Email" required>
@@ -185,6 +188,7 @@
                                     {{ $message }}
                                  </div>
                                 @enderror
+                                <p style="margin-left: 5%; margin-top: 0;">Contoh: 081234567890 </p>
                             <label class="myLabel">Email</label>
                             <input type="email" name="email2" id="txtEmailAnggota2" class="myTextbox width-90 @error('email2') is-invalid @enderror"
                                 placeholder="Email" required>
