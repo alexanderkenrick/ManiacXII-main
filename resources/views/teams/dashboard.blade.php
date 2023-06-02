@@ -10,15 +10,24 @@
 
 @section('content')
 
-    <section id="dashboard" style="width: 90%; margin: 0 auto;">
-    <div class="background">
-        <div class="container dashboard-container mb-5">
+<style>
+    .cloud-dashboard{
+        width: 350px;
+        position: absolute;
+    }
+</style>
+
+    <section id="dashboard" class="overflow-hidden">
+    <div style="width: 90%; margin: 0 auto;">
+    <div class="position-relative">
+        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 15.png') }}" alt="" class="cloud-dashboard" style="margin-top: -55px; margin-left: -50px;">
+        <div class="container dashboard-container">
             <div class="row">
-                <h3><strong>Selamat Datang, Tim {{ $team->team_name }}</strong></h3>
+                <h3 class="mt-5"><strong>Selamat Datang, Tim {{ $team->team_name }}</strong></h3>
             </div>
             <div class="row mt-3">
                 <div class="col-lg-12 text-center mb-3">
-                    <h3>Anggota</h3>
+                    <h3 class="mt-3">Anggota</h3>
                 </div>
             </div>
             <div>
@@ -86,6 +95,10 @@
                 </div>
             </form>
         </div>
-        </div>
+        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 15.png') }}" class="cloud-dashboard" style="right: 0; bottom: -50px;" alt="">
+    </div>
+    </div>
+    <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 10.png') }}" alt="" style="display: block; margin-left: auto; margin-right: -200px">
     </section>
+
 @endsection
