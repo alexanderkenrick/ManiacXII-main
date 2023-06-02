@@ -56,9 +56,9 @@
                         <th scope="col" class="sort" data-sort="status">Status</th>
                         <th scope="col">Peserta</th>
                         <th scope="col" class="sort" data-sort="school_name">Nama Sekolah</th>
-                        <th scope="col" class="sort" data-sort="school_name">Nama Sekolah</th>
-                        <th scope="col" class="sort" data-sort="school_name">School Address</th>
-                        <th scope="col" class="sort" data-sort="school_name">School Number</th>
+                        <th scope="col" class="sort" data-sort="school_name">Alamat Sekolah</th>
+                        <th scope="col" class="sort" data-sort="school_name">No. Sekolah</th>
+                        <th scope="col" class="sort" data-sort="school_name">Verifikasi</th>
                      </tr>
                   </thead>
                   <tbody class="list">
