@@ -1,20 +1,24 @@
+.container-checkme {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
 .dashboard-container {
     margin-top: 75px;
-    background-color: #aa8561;
+    background-color: #fcc8d1;
     padding: 30px 50px;
     border-radius: 30px;
-    color: #eceeca;
+    color: #4f200d;
 }
 
 .daftar-anggota {
     padding: 20px;
-    background-color:#eceeca;
-    color: #aa8561;
+    background-color: #d14d72;
+    color: #f6f1e9;
     border-radius: 15px;
 }
-
 .myInputFile {
-    border: none; 
+    border: none;
     margin-bottom: 0;
     width: 80%;
     margin: 0 auto;
@@ -25,7 +29,7 @@
 }
 
 .status {
-    background-color: #f3b240;
+    background-color: #fef2f4;
     width: 180px;
     border-radius: 50px;
 }
@@ -39,8 +43,8 @@
 }
 
 .myBtn {
-    background-color: #A0583A;
-    color: #eceeca;
+    background-color: #19376d;
+    color: #f6f1e9;
     font-weight: 800;
     width: 300px;
     max-width: 110%;
@@ -49,13 +53,13 @@
 }
 
 .myBtn.dark {
-    background-color: #eceeca;
-    color: #A0583A;
+    background-color: #19376d;
+    color: #f6f1e9;
 }
 
 .myBtn.dark:hover {
-    background-color: #d0d2ad;
-    color:#A0583A;
+    background-color: #a5d7e8;
+    color: #0b2447;
 }
 
 @media (min-width: 992px) {

@@ -11,9 +11,10 @@
 @section('content')
 
     <section id="dashboard" style="width: 90%; margin: 0 auto;">
-        <div class="container dashboard-container">
+    <div class="background">
+        <div class="container dashboard-container mb-5">
             <div class="row">
-                <h3>Selamat Datang, Tim {{ $team->team_name }}</h3>
+                <h3><strong>Selamat Datang, Tim {{ $team->team_name }}</strong></h3>
             </div>
             <div class="row mt-3">
                 <div class="col-lg-12 text-center mb-3">
@@ -37,7 +38,7 @@
             <form action={{ url('updateteam/'.$team->id) }} method="POST" enctype="multipart/form-data">
                 @csrf
                 @method('PUT')
-                <div class="row mt-2 justify-content-evenly">
+                    <div class="row mt-2 justify-content-evenly">
                     @foreach ($team->teamDetail as $item)
                     <input type="hidden" name="{{ 'idAnggota'.$loop->index }}" value="{{ $item->id }}">
                     <div class="col-lg-4 mb-3 daftar-anggota">
@@ -60,7 +61,6 @@
                         <div class="row mt-3">
                             <label class="text-center label-ganti-kp">Ganti Kartu Pelajar</label>
                             <input type="file" class="myInputFile @error('imgAnggota'.$loop->index) is-invalid @enderror" accept="application/pdf,image/*" name="{{ 'imgAnggota'.$loop->index }}" id="imgAnggota2">
-                           
                         </div>
                         @error('imgAnggota'.$loop->index)
                         <div class="invalid-feedback text-center">
@@ -71,11 +71,12 @@
                     </div>
                     @endforeach
                 </div>
+               
                 <div class="row mt-3">
                     <div class="col-lg-12 text-center d-flex flex-column justify-content-center align-items-center">
                         <h3>Status</h3>
                         @if ($team->status != 'accepted')
-                        <h4 class="status ditolak" style="font-weight: 700; text-transform: uppercase;">{{ $team->status }}</h4>
+                        <h4 class="status ditolak p-2 mt-3" style="font-weight: 700; text-transform: uppercase;">{{ $team->status }}</h4>
                         <p class="keterangan">{{ $team->message }}</p>
                         <button type="submit" class="btn myBtn dark">Simpan Perubahan</button>
                         @else
@@ -84,6 +85,7 @@
                     </div>
                 </div>
             </form>
+        </div>
         </div>
     </section>
 @endsection
