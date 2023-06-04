@@ -11,35 +11,50 @@
 @section('content')
 
 <style>
-    #cloud{
-        width: 10rem;
-        position: absolute;
-        bottom: -10rem;
-        left: 3rem;
-        transform: scaleX(-1);
+    .cloud1{
+        width: 9rem;
+        position: relative;
+        left: 35rem;
         z-index: -1;
+        top: 5rem;
+        transform: scaleX(-1);
+        filter: drop-shadow(0 0 2px #a36948);
+    }
+    .cloud2{
+        width: 20rem;
+        position: absolute;
+        left: -5rem;
+        bottom: -3rem;
+        transform: scaleX(-1);
+        filter: drop-shadow(0 0 5px #f6f1e9);    }
+    .cloud3{
+        width: 20rem;
+        position: absolute;
+        right: 1rem;
+        bottom: 5rem;
+        animation: cloudAnimation 4s ease-in-out 1s infinite;
+        filter: drop-shadow(0 0 3px #f6f1e9);
     }
     .cloud-dashboard{
-        width: 350px;
+        width: 18.75rem;
         position: absolute;
-        left: -14rem;
-        top: -6rem;
-        transform: scaleX(-1);
+        left: -13rem;
+        top: -5rem;
         filter: drop-shadow(0 0 5px #a36948);
         z-index: -1;
-        
+        transform: scaleX(-1);        
     }
     .moon{
         position: absolute; 
-        bottom: 5rem; 
-        right: -2rem; 
-        width: 5rem;
+        bottom: -17rem; 
+        left: 7rem; 
+        width: 7rem;
         z-index: -2;
     }
     .star1{
         position: absolute;
-        right: 3rem;
-        top: 6.25rem;
+        right: 5rem;
+        top: 7rem;
     }
     .star2{
         position: absolute;
@@ -48,18 +63,34 @@
     }
     .star3{
         position: absolute;
-        left: 30rem;
-        bottom: -20rem;
+        right: 30rem;
+        bottom: -10rem;
     }
     .star{
         animation: starAnimation 5s ease-in-out 1s infinite;
     }
-    #fairytale{
+    .fairytale1{
         width: 2rem;
         position: absolute; 
         top: 25rem;
         right: 5rem;
     }
+    .fairytale2{
+        position: absolute;
+        bottom: -20rem;
+        transform: scaleX(-1);
+        left: 11rem;
+        width: 2rem;
+        rotate: -30deg;
+        z-index: -1;
+    }
+    .branch{
+        display: block; 
+        margin-left: auto; 
+        margin-right: -200px;
+        margin-top: 5rem;
+    }
+    /* animation */
     @keyframes starAnimation {
         0%,100%{
             filter: drop-shadow(0 0 8px #ffd93d);
@@ -68,13 +99,137 @@
             filter: drop-shadow(0 0 1px #ffd93d);
         }
     }
+    @keyframes cloudAnimation {
+        0%,100%{
+            transform: translate(0,0);
+        }
+        50%{
+            transform: translate(3px,0);
+        }
+    }
+    /* Media Query */
+    @media screen and (max-width: 920px)  {
+        .star1{
+            right: 2rem;
+        }
+        .star2{
+            left: 2rem;
+            top: 40rem;
+        }
+        .star3{
+            bottom: -45rem;
+            z-index: 2;
+            right: 15rem;
+        }
+        .fairytale1{
+            right: 1.5rem;
+        }
+        .fairytale2{
+            bottom: -51rem;
+            left: 9rem;
+            z-index: 1;
+        }
+        .cloud2{
+            bottom: -40rem;
+            width: 14rem;
+            left: -2rem;
+        }
+        .cloud3{
+            right: 0;
+            top: 50rem;
+            width: 10rem;
+        }
+        .cloud-dashboard{
+            width: 15rem;
+            left: -9rem;
+            top: 1rem;
+        }
+        .moon{
+            bottom: -10rem;
+            width: 5rem;
+        }
+    }
+    @media screen and (max-width: 768px){
+        .fairytale1{
+            right: 1rem;
+        }
+        .star1{
+            width: 1.5rem;
+            top: 6rem;
+        }
+        .star2{
+            left: 0.5rem;
+            width: 1.5rem;
+        }
+        .star3{
+            width: 1.5rem;
+            bottom: -15rem;
+        }
+        .fairytale2{
+            bottom: -19rem;
+            left: 9rem;
+        }
+        .cloud2{
+            bottom: -8rem;
+        }
+    }
+    @media screen and (max-width: 511px){
+        .cloud-dashboard{
+            top: -3rem;
+        }
+        .fairytale1{
+            right: 0;
+        }
+        .star1{
+            width: 1rem;
+            top: 6rem;
+            right: 1rem;
+        }
+        .star2{
+            left: 0.5rem;
+            width: 1rem;
+        }
+        .star3{
+            width: 1rem;
+            right: 4rem;
+            bottom: -50rem;
+        }
+        .fairytale2{
+            bottom: -52rem;
+            left: 8rem;
+        }
+        .cloud2{
+            bottom: -42rem;
+        }
+        .cloud3{
+            right: 0;
+            bottom: -10rem;
+            width: 9rem;
+        }
+    }
+    @media screen and (max-width : 400px) {
+        .star2{
+            right: -1rem;
+        }
+        .cloud2{
+            bottom:-42rem;
+        }
+        .cloud3{
+            width: 7rem;
+            bottom: -10rem;
+        }
+        .fairytale2{
+            bottom: -51rem;
+        }
+    }
+
 </style>
 
     <section id="dashboard" class="overflow-hidden">
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 5.png') }}" alt="" class="star1 star">
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 5.png') }}" alt="" class="star2 star">
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 5.png') }}" alt="" class="star3 star">
-        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 4.png') }}" alt="" id="fairytale">
+        <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 4.png') }}" alt="" class="fairytale1">
     <div style="width: 90%; margin: 0 auto;">
     <div class="position-relative">
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 12.png') }}" alt="" class="cloud-dashboard">
@@ -155,8 +310,10 @@
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 3.png') }}" alt="" class="moon">
     </div>
     </div>
-    <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 11.png') }}" alt="" id="cloud">
-    <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 10.png') }}" alt="" style="display: block; margin-left: auto; margin-right: -200px">
+    <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 16.png') }}" alt="" class="cloud2">
+    <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 7.png') }}" alt="" class="cloud3">
+    <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 4.png') }}" alt="" class="fairytale2">
+    <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 10.png') }}" alt="" class="branch">
     </section>
 
 @endsection
