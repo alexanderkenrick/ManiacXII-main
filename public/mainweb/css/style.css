@@ -292,11 +292,19 @@ a {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1200px){
+    .myTitle {
+        font-size: 3em !important;
+    }
+}
+
+@media (max-width: 768px) {
     .footer-img {
         bottom: 730px;
     }
+
 }
+
 
 @media (max-width: 511px) {
     .footer-img {
@@ -308,6 +316,6 @@ a {
     }
 
     .myTitle {
-        font-size: 2em !important;
+        margin-top: 72px;
     }
 }
