@@ -304,7 +304,7 @@
                     <div id="collapse16" class="accordion-collapse collapse" aria-labelledby="heading16"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body color-inside-faq faq-radialGradient-inside">
-                            Setiap tim wajib mengirimkan salah satu perwakilan tim.
+                            Setiap anggota tim wajib mengikuti <i>Technical Meeting</i>.
                         </div>
                     </div>
                 </div>
