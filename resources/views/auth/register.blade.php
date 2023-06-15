@@ -83,10 +83,10 @@
                                     {{ $message }}
                                 </div>
                             @enderror
-                            <label class="myLabel">Password</label>
+                            <label class="myLabel">Password <span style="font-size: 12px">(min. 6 karakter)</span></label>
                             <input type="password" name="password" id="txtPassword"
                                 class="myTextbox width-90 @error('password') is-invalid @enderror" placeholder="Password"
-                                required>
+                                minlength="6" required>
                             @error('password')
                                 <div class="invalid-feedback text-center">
                                     {{ $message }}

@@ -14,7 +14,6 @@ class RegisterController extends Controller
 {
    public function store(Request $request)
    {
-
       date_default_timezone_set("Asia/Jakarta");
       $endDate = "5 August 2023";
       $endDateTimestamp = strtotime($endDate);
@@ -51,8 +50,6 @@ class RegisterController extends Controller
       $dataAccount->save();
       $newIdAccount = $dataAccount->id;
 
-      $memberArr = array();
-
       $dataTeam = new Team();
 
       $dataTeam->account_id = $newIdAccount;
@@ -71,9 +68,6 @@ class RegisterController extends Controller
       $dataMember1->phone_number = $request->get('phone_number');
       $dataMember1->email = $request->get('email');
 
-      $memberArr[]=array('nama'=> $dataMember1->name,
-                        'email'=> $dataMember1->email);
-
       //Image
       $imgFolder = "files";
       $imgFile = time() . "_" . $request->file('image')->getClientOriginalName();
@@ -88,9 +82,6 @@ class RegisterController extends Controller
       $dataMember2->role = "Member";
       $dataMember2->phone_number = $request->get('phone_number1');
       $dataMember2->email = $request->get('email1');
-
-      $memberArr[]=array('nama'=> $dataMember2->name,
-                        'email'=> $dataMember2->email);
 
       //Image
       $imgFolder = "files";
@@ -107,9 +98,6 @@ class RegisterController extends Controller
       $dataMember3->phone_number = $request->get('phone_number2');
       $dataMember3->email = $request->get('email2');
 
-      $memberArr[]=array('nama'=> $dataMember2->name,
-                        'email'=> $dataMember2->email);
-
       //Image
       $imgFolder = "files";
       $imgFile = time() . "_" . $request->file('image2')->getClientOriginalName();
@@ -117,10 +105,11 @@ class RegisterController extends Controller
       $dataMember3->image = $imgFile;
 
       $dataMember3->save();
-
-      foreach($memberArr as $data => $val){
-         RegisterController::sendEmail($val['email'], $dataTeam->team_name, $val['nama']);
-      }
+     
+      RegisterController::sendEmail($dataMember1->email, $dataTeam->team_name,  $dataMember1->name);
+      RegisterController::sendEmail($dataMember2->email, $dataTeam->team_name,  $dataMember2->name);
+      RegisterController::sendEmail($dataMember3->email, $dataTeam->team_name,  $dataMember3->name);
+      
       // RegisterController::sendEmail($emailToSend, $dataTeam->team_name);
 
       return redirect('/login')->with('success', 'Pendaftaran Tim Anda Berhasil');
@@ -129,5 +118,4 @@ class RegisterController extends Controller
    public function sendEmail($emailToSend, $team, $nama){
       Mail::to($emailToSend)->send(new ManiacMail($team,$nama));
    }
-
 }

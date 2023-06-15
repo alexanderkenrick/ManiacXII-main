@@ -49,7 +49,7 @@
         </thead>
         <tbody>
             <tr>
-                <td width=100%><h3>Selamat datang {{$nama}} di Maniac XII!!!</h3></td>
+                <td width=100%><h3>Selamat datang {{$nama}} di Maniac XII !!!</h3></td>
             </tr>
             <tr>
                 <td width=100%>Anda terdaftar dalam tim <b>{{$team}}</b></td>
