@@ -6,6 +6,16 @@
 
 @section('style')
     <link rel="stylesheet" href="{{ asset('/mainweb/css/regist.css') }}">
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+    </style>
 @endsection
 
 @section('content')
@@ -55,9 +65,9 @@
                                 </div>
                             @enderror
                             <label class="myLabel">No. Telepon Sekolah</label>
-                            <input type="text" name="school_number" id="txtNamaSekolah"
+                            <input type="tel" name="school_number" id="txtNamaSekolah"
                                 class="myTextbox width-90  @error('school_number') is-invalid @enderror"
-                                placeholder="No. Telepon Sekolah"  required>
+                                placeholder="No. Telepon Sekolah" maxlength="12"  required>
                             @error('school_number')
                                 <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -101,9 +111,9 @@
                                 </div>
                             @enderror
                             <label class="myLabel">Nomor HP</label>
-                            <input type="text" name="phone_number" id="txtNoHpKetua"
+                            <input type="tel" name="phone_number" id="txtNoHpKetua"
                                 class="myTextbox width-90 @error('phone_number') is-invalid @enderror"
-                                placeholder="Nomor HP" required>
+                                placeholder="Nomor HP "maxlength="12" required>
                             @error('phone_number')
                                 <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -142,8 +152,8 @@
                                 </div>
                             @enderror
                             <label class="myLabel">Nomor HP</label>
-                            <input type="text" name="phone_number1" id="txtNoHpAnggota1" class="myTextbox width-90"
-                                placeholder="Nomor HP" required>
+                            <input type="tel" name="phone_number1" id="txtNoHpAnggota1" class="myTextbox width-90"
+                                placeholder="Nomor HP" maxlength="12" required>
                                 @error('phone_number1')
                                 <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -181,8 +191,8 @@
                                  </div>
                                 @enderror
                             <label class="myLabel">Nomor HP</label>
-                            <input type="text" name="phone_number2" id="txtNoHpAnggota2" class="myTextbox width-90 @error('phone_number2') is-invalid @enderror"
-                                placeholder="Nomor HP" required>
+                            <input type="tel" name="phone_number2" id="txtNoHpAnggota2" class="myTextbox width-90 @error('phone_number2') is-invalid @enderror"
+                                placeholder="Nomor HP" maxlength="12" required>
                                  @error('phone_number2')
                                  <div class="invalid-feedback text-center">
                                     {{ $message }}
@@ -264,10 +274,10 @@
 
                             <h3 class="text-center">Persyaratan Peserta MANIAC XII</h3>
                             <ol>
-                                <li>Satu tim terdiri dari 3 siswa/siswi aktif (maksimal kelas XI di Tahun Ajaran 2022/2023)
+                                <li>Satu tim terdiri dari 3 siswa/siswi aktif (maksimal kelas XII di Tahun Ajaran 2023/2024)
                                     Sekolah Menengah Atas (SMA)/Sekolah Menengah Kejuruan (SMK)/sederajat yang berasal dari
                                     sekolah yang sama <b>(boleh berasal dari jenjang dan peminatan yang berbeda).</b></li>
-                                <li>Dikarenakan Babak Final MANIAC XI diadakan secara luring/offline. Peserta diharapkan
+                                <li>Dikarenakan Babak Final MANIAC XII diadakan secara luring/offline. Peserta diharapkan
                                     untuk bersedia dalam mengikuti seluruh rangkaian acara mulai dari Babak Penyisihan
                                     hingga Babak Final</li>
                                 <li>Registrasi dilakukan oleh salah satu perwakilan TIM.</li>
@@ -291,7 +301,7 @@
 @endsection
 
 @section('script')
-    <script>
+    <script type="text/javascript">
         function showPassword() {
             let txtPassword = document.getElementById("txtPassword");
             if (txtPassword.type === "password") {

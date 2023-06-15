@@ -93,34 +93,38 @@
 
     <!-- asset : moon -->
     <div class="position-relative overflow-hiddens">
-    <div class="d-flex justify-content-end position-absolute moon-cloud-container">
+        <div class="d-flex justify-content-end position-absolute moon-cloud-container">
                 <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 6.png') }}" alt="" srcset="">
                     <img class="cloud" src="{{ asset('../mainweb/img/maniacxii-asset/Asset 15.png') }}" alt="" srcset="">
             </div>
         </div>
 
         <div class="container" style="margin-top: 5%; position: relative; overflow: hidden;">
-            <div class="row justify-content-center" ">
+            <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-8 col-sm-10 col-xs-11 text-center">
-                     @if(session('loginError'))
+                    @if(session('loginError'))
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
                            {{ session('loginError') }}
                         </div>
-                     @endif
-                     @if(session()->has('registerClosed'))  
-                     <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                        {{ session()->get('registerClosed') }}
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                     </div>
-                     @endif
-                     <div class="d-flex">
-                        <div>
-                        <img src="{{ asset('../mainweb/img/logo/logo-header.png') }}" width="100%" alt="Logo MANIAC XII">
+                    @endif
+                    @if(session()->has('registerClosed'))  
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            {{ session()->get('registerClosed') }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
-                     <div>
-                     <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 4.png') }}" width="100%" alt="" srcset="">
-                     </div>
-                     </div>
+                    @endif
+                    
+                    <div class="d-flex">
+                        <div>
+                            <img src="{{ asset('../mainweb/img/logo/logo-header.png') }}" width="100%" alt="Logo MANIAC XII">
+                        </div>
+                        <div>
+                            <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 4.png') }}" width="100%" alt="" srcset="">
+                        </div>
+                    </div>
+                    @if (Session::has('success'))
+                        <div class="alert alert-success" style="padding:8px 8px;margin:16px 0 0 0 ;">{{Session::get('success')}}</div>
+                    @endif
 
                     <form method="POST" action="{{ url('/login') }}" class="mt-5">
                         @csrf
@@ -153,6 +157,7 @@
             </div>
         </div>   
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 10.png') }}" style="display: block; margin-left: auto; margin-right: -200px;" alt="">  
+    </div>
     </section>
     
 
@@ -164,6 +169,15 @@
 @section('script')
 
     <script>
+        $(document).ready(function () {
+ 
+            window.setTimeout(function() {
+                $(".alert").fadeTo(1000, 0).slideUp(1000, function(){
+                    $(this).remove(); 
+                });
+            }, 5000);
+            
+        });
         function showPassword() {
             let txtPassword = document.getElementById("txtPassword");
             if (txtPassword.type === "password") {

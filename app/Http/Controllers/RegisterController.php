@@ -7,6 +7,8 @@ use App\Team;
 use App\TeamDetail;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
+use App\Mail\ManiacMail;
+use Illuminate\Support\Facades\Mail;
 
 class RegisterController extends Controller
 {
@@ -49,6 +51,8 @@ class RegisterController extends Controller
       $dataAccount->save();
       $newIdAccount = $dataAccount->id;
 
+      $memberArr = array();
+
       $dataTeam = new Team();
 
       $dataTeam->account_id = $newIdAccount;
@@ -67,6 +71,9 @@ class RegisterController extends Controller
       $dataMember1->phone_number = $request->get('phone_number');
       $dataMember1->email = $request->get('email');
 
+      $memberArr[]=array('nama'=> $dataMember1->name,
+                        'email'=> $dataMember1->email);
+
       //Image
       $imgFolder = "files";
       $imgFile = time() . "_" . $request->file('image')->getClientOriginalName();
@@ -81,6 +88,9 @@ class RegisterController extends Controller
       $dataMember2->role = "Member";
       $dataMember2->phone_number = $request->get('phone_number1');
       $dataMember2->email = $request->get('email1');
+
+      $memberArr[]=array('nama'=> $dataMember2->name,
+                        'email'=> $dataMember2->email);
 
       //Image
       $imgFolder = "files";
@@ -97,6 +107,9 @@ class RegisterController extends Controller
       $dataMember3->phone_number = $request->get('phone_number2');
       $dataMember3->email = $request->get('email2');
 
+      $memberArr[]=array('nama'=> $dataMember2->name,
+                        'email'=> $dataMember2->email);
+
       //Image
       $imgFolder = "files";
       $imgFile = time() . "_" . $request->file('image2')->getClientOriginalName();
@@ -105,6 +118,16 @@ class RegisterController extends Controller
 
       $dataMember3->save();
 
-      return redirect('/login');
+      foreach($memberArr as $data => $val){
+         RegisterController::sendEmail($val['email'], $dataTeam->team_name, $val['nama']);
+      }
+      // RegisterController::sendEmail($emailToSend, $dataTeam->team_name);
+
+      return redirect('/login')->with('success', 'Pendaftaran Tim Anda Berhasil');
    }
+
+   public function sendEmail($emailToSend, $team, $nama){
+      Mail::to($emailToSend)->send(new ManiacMail($team,$nama));
+   }
+
 }

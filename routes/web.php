@@ -43,6 +43,14 @@ Route::post('/logout', 'AccountController@logout');
 Route::get('/register', 'AccountController@registerPage');
 
 Route::post('/register', 'RegisterController@store');
+Route::post('/email-test', [RegisterController::class, 'sendEmail'])->name('register.email');
+Route::get('/kirimemail','RegisterController@index');
+
+Route::get('/mail', function () {
+   return view('mail');
+});
+
+
 
 //Auth::routes();
 

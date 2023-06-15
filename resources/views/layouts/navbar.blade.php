@@ -30,9 +30,9 @@
           <li class="nav-item">
             <a class="nav-link{{ request()->is('dashboard/'.auth()->user()->id) ? ' active' : '' }}" href="{{ url('dashboard/'.auth()->user()->id) }}">Your Team</a>
           </li>
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a class="nav-link{{ request()->is('workshop') ? ' active' : '' }}" href="{{ url('workshop') }}">Workshops</a>
-          </li>
+          </li> --}}
           @endif
           @endauth
           <li class="nav-item dropdown">

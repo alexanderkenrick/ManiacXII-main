@@ -23,7 +23,7 @@
     .cloud2{
         width: 20rem;
         position: absolute;
-        left: -5rem;
+        left: -8rem;
         bottom: -3rem;
         transform: scaleX(-1);
         filter: drop-shadow(0 0 5px #f6f1e9);    }
@@ -235,7 +235,7 @@
         <img src="{{ asset('../mainweb/img/maniacxii-asset/Asset 12.png') }}" alt="" class="cloud-dashboard">
         <div class="container dashboard-container">
             <div class="row">
-                <h3 class="mt-5"><strong>Selamat Datang, Tim {{ $team->team_name }}</strong></h3>
+                <h3 class="mt-md-3 mt-lg-5"><strong>Selamat Datang, Tim {{ $team->team_name }}</strong></h3>
             </div>
             <div class="row mt-3">
                 <div class="col-lg-12 text-center mb-3">
@@ -266,18 +266,23 @@
                         <div class="row mb-3">
                             <a href="{{ asset('files/'.$item->image) }}" class="btn myBtn" target="_blank" style="width: 80%; margin: 0 auto;">Check Me</a>
                         </div>
-                        <div class="row justify-content-between">
-                            <div class="col-5">Nama</div>
-                            <div class="col-7">{{ $item->name }}</div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="row ">
+                                    <div class="col-3">Nama</div>
+                                    <div class="col-9">{{ $item->name }}</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-3">No HP</div>
+                                    <div class="col-9">{{ $item->phone_number }}</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-3">Email</div>
+                                    <div class="col-9">{{ $item->email }}</div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="row justify-content-between">
-                            <div class="col-5">No HP</div>
-                            <div class="col-7">{{ $item->phone_number }}</div>
-                        </div>
-                        <div class="row justify-content-between">
-                            <div class="col-5">Email</div>
-                            <div class="col-7">{{ $item->email }}</div>
-                        </div>
+                        
                         @if ($team->status != 'accepted')
                         <div class="row mt-3">
                             <label class="text-center label-ganti-kp">Ganti Kartu Pelajar</label>

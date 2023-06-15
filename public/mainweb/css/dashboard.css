@@ -67,3 +67,17 @@
         width: 30% !important;
     }
 }
+
+@media screen and (max-width:576px) {
+    .dashboard-container {
+        margin-top: 75px;
+        background-color: #fcc8d1;
+        padding: 30px 50px;
+        border-radius: 30px;
+        color: #4f200d;
+    }
+
+    h3{
+        text-align: center;
+    }
+}
