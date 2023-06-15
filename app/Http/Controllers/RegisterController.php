@@ -8,6 +8,7 @@ use App\TeamDetail;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
 use App\Mail\ManiacMail;
+use App\Mail\PendaftaranManiac;
 use Illuminate\Support\Facades\Mail;
 
 class RegisterController extends Controller
@@ -107,8 +108,8 @@ class RegisterController extends Controller
       $dataMember3->save();
      
       RegisterController::sendEmail($dataMember1->email, $dataTeam->team_name,  $dataMember1->name);
-      RegisterController::sendEmail($dataMember2->email, $dataTeam->team_name,  $dataMember2->name);
-      RegisterController::sendEmail($dataMember3->email, $dataTeam->team_name,  $dataMember3->name);
+      // RegisterController::sendEmail($dataMember2->email, $dataTeam->team_name,  $dataMember2->name);
+      // RegisterController::sendEmail($dataMember3->email, $dataTeam->team_name,  $dataMember3->name);
       
       // RegisterController::sendEmail($emailToSend, $dataTeam->team_name);
 
@@ -116,6 +117,6 @@ class RegisterController extends Controller
    }
 
    public function sendEmail($emailToSend, $team, $nama){
-      Mail::to($emailToSend)->send(new ManiacMail($team,$nama));
+      Mail::to($emailToSend)->send(new PendaftaranManiac($team,$nama));
    }
 }

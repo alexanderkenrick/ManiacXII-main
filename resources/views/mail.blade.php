@@ -38,24 +38,44 @@
         a{
             color: #ffffff !important;
         }
+
+        li{
+           
+        }
+        ul{
+            padding-left:24px;
+        }
     </style>
 </head>
 <body>
     <table>
         <thead>
             <tr>
-                <th><h2>Pendaftaran Maniac XII</h2></th>
+                <th><h2>Congratulation {{$team}} !</h2></th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td width=100%><h3>Selamat datang {{$nama}} di Maniac XII !!!</h3></td>
+                <td width=100%>Haiii <b>{{$team}}</b>, kami dari panitia Maniac XII ingin menginfokan bahwa tim kalian terdaftar menjadi peserta di Maniac XII. Selamat ya <b>{{$team}}</b></td>
             </tr>
             <tr>
-                <td width=100%>Anda terdaftar dalam tim <b>{{$team}}</b></td>
+                <td width=100%>Untuk informasi lebih lanjut kalian dapat menghubungi CP kami dibawah ini yaaa!</td>
             </tr>
             <tr>
-                <td width=100%>Untuk ketua tim dimohon untuk menghubungi nomor WA berikut: <a href="https://wa.me/+6285730781045" target="_blank" rel="noopener">085730781045 (Paulina)</a></td>
+                <td width=100% style="padding-top: 0;">
+                    <ul>
+                        <li><a href="https://wa.me/+6285730781045" target="_blank" rel="noopener">Paulina - 085730781045</a></li>    
+                        <li><a href="https://wa.me/+6281260644333" target="_blank" rel="noopener">Richard - 081260644333</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td width=100%>Kalian juga bisa kepoin Instagram Maniac yaa! <br> <a href="https://www.instagram.com/maniac_ubaya/?hl=en" target="_blank" rel="noopener">@mania_cubaya</td>
+            </tr>
+            <tr>
+                <td>
+                    <span style="color: #f9ad16">Welcome to Wonderland : Where Anything is Possible</span>
+                </td>
             </tr>
         </tbody>
     </table>
