@@ -33,10 +33,13 @@
 
         </div>
 
-        {{-- <h2 class="d-flex justify-content-center my-5 fs-1 mb-4 myTitle">GUIDE BOOK</h2>
-        <div class="d-flex justify-content-center">
+        <h2 class="d-flex justify-content-center my-5 fs-1 mb-4 myTitle">GUIDE BOOK</h2>
+        {{-- <div class="d-flex justify-content-center">
             <a href="{{ asset('../mainweb/guidebook/guidebook_updated.pdf') }}" target="_blank" class="btn btn-download fs-4 rounded-pill"><strong>DOWNLOAD</strong></a>
         </div> --}}
+        <div class="d-flex justify-content-center">
+            <a href="https://drive.google.com/drive/folders/1aa2RzhFbYR7R5e252AIBIrkNo52dCYm-?usp=sharing" target="_blank" class="btn btn-download fs-4 rounded-pill"><strong>DOWNLOAD</strong></a>
+        </div>
     </div>
 </div>
 @endsection
