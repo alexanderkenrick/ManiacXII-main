@@ -7,3 +7,13 @@
     height: auto;
     padding-bottom: 86px;
 }
+
+.video {
+    background-color: #d14d72;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+iframe {
+    max-width: 100%;
+}
