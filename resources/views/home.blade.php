@@ -24,7 +24,7 @@
                     
                     @php
                         date_default_timezone_set("Asia/Jakarta");
-                        $endDate = "5 August 2023";
+                        $endDate = "1 August 2023";
                         $endDateTimestamp = strtotime($endDate);  
                     @endphp
                     @if (time() < $endDateTimestamp)

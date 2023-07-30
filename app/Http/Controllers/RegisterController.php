@@ -16,10 +16,10 @@ class RegisterController extends Controller
    public function store(Request $request)
    {
       date_default_timezone_set("Asia/Jakarta");
-      $endDate = "5 August 2023";
+      $endDate = "1 August 2023";
       $endDateTimestamp = strtotime($endDate);
       if (time() >= $endDateTimestamp) {
-          session()->flash('registerClosed', 'Pendaftaran telah ditutup, sampai jumpa di MANIAC XII');
+          session()->flash('registerClosed', 'Pendaftaran telah ditutup, sampai jumpa di MANIAC XIII');
           return redirect('/login');
       }
 
