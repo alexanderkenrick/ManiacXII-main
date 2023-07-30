@@ -106,7 +106,7 @@
                                 </div>
                                 <div style="display: flex; flex-direction:column;">
                                     <div class="timeline-info">
-                                        <small>12 September 2023</small>
+                                        <small>12 Agustus 2023</small>
                                         <h4><span>Final</span></h4>
                                     </div>
                                 </div>
